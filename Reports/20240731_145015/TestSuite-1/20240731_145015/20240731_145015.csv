@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite-1,Chrome 127.0.0.0,,,31-07-2024 14:50:24,31-07-2024 14:51:12,47.903s,PASSED
+,,,,,,,
+Test Cases/TestCase-11-expandTesting-login,Chrome 127.0.0.0,,,31-07-2024 14:50:24,31-07-2024 14:50:47,22.870s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,31-07-2024 14:50:24,31-07-2024 14:50:27,2.821s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/login"")",Chrome 127.0.0.0,,,31-07-2024 14:50:27,31-07-2024 14:50:33,5.398s,PASSED
+"setText(findTestObject(""Object Repository/login4/Page_Login form page for Automation Testing_eea870/input_Username_username""), username)",Chrome 127.0.0.0,,,31-07-2024 14:50:33,31-07-2024 14:50:35,2.120s,PASSED
+"setText(findTestObject(""Object Repository/login4/Page_Login form page for Automation Testing_eea870/input_Password_password""), password)",Chrome 127.0.0.0,,,31-07-2024 14:50:35,31-07-2024 14:50:36,0.763s,PASSED
+"click(findTestObject(""Object Repository/login4/Page_Login form page for Automation Testing_eea870/button_Login""))",Chrome 127.0.0.0,,,31-07-2024 14:50:36,31-07-2024 14:50:45,9.111s,PASSED
+"verifyElementVisible(findTestObject(""login4/Page_Login form page for Automation Testing Practice/b_Your username is invalid""))",Chrome 127.0.0.0,,,31-07-2024 14:50:45,31-07-2024 14:50:46,1.720s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,31-07-2024 14:50:46,31-07-2024 14:50:47,0.424s,PASSED
+,,,,,,,
+Test Cases/TestCase-14-expandTesting-pass,Chrome 127.0.0.0,,,31-07-2024 14:50:47,31-07-2024 14:50:57,9.984s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,31-07-2024 14:50:47,31-07-2024 14:50:48,1.335s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/secure-password-checker"")",Chrome 127.0.0.0,,,31-07-2024 14:50:48,31-07-2024 14:50:52,3.705s,PASSED
+"setText(findTestObject(""passwordchecker/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password""), ""Dsil12Dsil"")",Chrome 127.0.0.0,,,31-07-2024 14:50:52,31-07-2024 14:50:54,2.506s,PASSED
+"verifyElementNotVisible(findTestObject(""passwordchecker/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long""))",Chrome 127.0.0.0,,,31-07-2024 14:50:54,31-07-2024 14:50:55,0.482s,PASSED
+"verifyElementNotVisible(findTestObject(""passwordchecker/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter""))",Chrome 127.0.0.0,,,31-07-2024 14:50:55,31-07-2024 14:50:55,0.461s,PASSED
+"verifyElementNotVisible(findTestObject(""passwordchecker/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character""))",Chrome 127.0.0.0,,,31-07-2024 14:50:55,31-07-2024 14:50:56,0.500s,PASSED
+"verifyElementNotVisible(findTestObject(""passwordchecker/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter""))",Chrome 127.0.0.0,,,31-07-2024 14:50:56,31-07-2024 14:50:56,0.499s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,31-07-2024 14:50:56,31-07-2024 14:50:57,0.339s,PASSED
+,,,,,,,
+Test Cases/TestCase-12-expandTesting-contact,Chrome 127.0.0.0,,,31-07-2024 14:50:57,31-07-2024 14:51:12,14.732s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,31-07-2024 14:50:57,31-07-2024 14:50:58,1.256s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/contact"")",Chrome 127.0.0.0,,,31-07-2024 14:50:58,31-07-2024 14:51:01,2.543s,PASSED
+"setText(findTestObject(""Object Repository/Contact1/Page_Contact form page for Automation Testi_fb6edd/input_Name_form-control""), ""dom@gmail.com"")",Chrome 127.0.0.0,,,31-07-2024 14:51:01,31-07-2024 14:51:03,2.022s,PASSED
+"setText(findTestObject(""Object Repository/Contact1/Page_Contact form page for Automation Testi_fb6edd/textarea_You message_address""), ""dom sil"")",Chrome 127.0.0.0,,,31-07-2024 14:51:03,31-07-2024 14:51:04,1.049s,PASSED
+"click(findTestObject(""Object Repository/Contact1/Page_Contact form page for Automation Testi_fb6edd/a_Send""))",Chrome 127.0.0.0,,,31-07-2024 14:51:04,31-07-2024 14:51:11,7.256s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,31-07-2024 14:51:11,31-07-2024 14:51:12,0.483s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-27-globalsqa-consumption</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eccd2b68-6986-47fb-b76b-ac3492fe8d74</testCaseGuid>
+</TestCaseEntity>

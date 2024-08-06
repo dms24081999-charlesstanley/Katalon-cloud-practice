@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-40-expandTesting-consoleLogs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c2d4b9fc-770e-4d68-81d5-8381bfcb24fe</testCaseGuid>
+</TestCaseEntity>

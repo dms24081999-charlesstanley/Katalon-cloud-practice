@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Graduate</name>
+   <tag></tag>
+   <elementGuidId>9d0360a1-0702-4a7e-8efc-f3b43f8aaba1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contact-form-2599']/form/div[6]/label[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.grunion-radio-label.radio</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Graduate&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>0d9f6a77-3761-4461-acf6-2e9150fe648b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grunion-radio-label radio</value>
+      <webElementGuid>bb008169-6eca-4100-8630-7835f0a7c283</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Graduate</value>
+      <webElementGuid>82dd6558-2bb4-4350-82d8-4f075ca4b592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contact-form-2599&quot;)/form[@class=&quot;contact-form commentsblock&quot;]/div[@class=&quot;grunion-field-wrap grunion-field-radio-wrap&quot;]/label[@class=&quot;grunion-radio-label radio&quot;]</value>
+      <webElementGuid>94963d06-9a62-4fb2-92c5-96baa416f089</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contact-form-2599']/form/div[6]/label[2]</value>
+      <webElementGuid>ecdc84f9-8c24-411b-bc78-377184e16b30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/following::label[1]</value>
+      <webElementGuid>eda56689-f343-474d-9a3c-7e8849150d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manual Testing'])[1]/following::label[2]</value>
+      <webElementGuid>ef60a316-54e3-48da-8014-1c6bf74553ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post Graduate'])[1]/preceding::label[1]</value>
+      <webElementGuid>fea74941-f5f7-4190-855e-f7ca3ea81945</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/preceding::label[2]</value>
+      <webElementGuid>feac4965-59b3-4989-b697-c3fdf2b99a1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Graduate']/parent::*</value>
+      <webElementGuid>27ffb60e-0a5f-4c6a-89a8-261216379023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/label[2]</value>
+      <webElementGuid>5f199d76-4056-4c99-961b-f0ac856838f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Graduate' or . = ' Graduate')]</value>
+      <webElementGuid>7500750b-5cef-47aa-a8d7-b48d537bf897</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-09-orangeHRM-login</name>
+   <tag>account,banking</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>321916c9-8932-4feb-abfa-56043422fa57</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-43-expandTesting-geolocation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ccacb63-86b7-446e-beb1-a2a6ed886336</testCaseGuid>
+</TestCaseEntity>

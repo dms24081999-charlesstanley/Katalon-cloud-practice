@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-2-forms1,,,,01-08-2024 17:47:25,01-08-2024 17:47:37,12.265s,FAILED
+,,,,,,,
+Test Cases/TC-03-automationtesting/Register,,,,01-08-2024 17:47:32,01-08-2024 17:47:33,1.060s,FAILED
+"openBrowser("""")",,,,01-08-2024 17:47:32,01-08-2024 17:47:33,1.020s,FAILED
+,,,,,,,
+Test Cases/TC-05-ultimateqa-form/main,,,,01-08-2024 17:47:36,01-08-2024 17:47:37,1.019s,FAILED
+"openBrowser("""")",,,,01-08-2024 17:47:36,01-08-2024 17:47:37,0.989s,FAILED

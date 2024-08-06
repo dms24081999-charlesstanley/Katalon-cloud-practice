@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-8-demoqa-book,Chrome 127.0.0.0,,,02-08-2024 13:39:12,02-08-2024 13:40:32,1m - 20.082s,PASSED
+,,,,,,,
+Test Cases/TC-17-demoqa-book-login,Chrome 127.0.0.0,,,02-08-2024 13:39:13,02-08-2024 13:39:53,40.747s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:39:13,02-08-2024 13:39:15,2.187s,PASSED
+"navigateToUrl(""https://demoqa.com/login"")",Chrome 127.0.0.0,,,02-08-2024 13:39:15,02-08-2024 13:39:49,34.240s,PASSED
+"setText(findTestObject(""Object Repository/TC-17/Page_DEMOQA/input_UserName_userName""), ""dms"")",Chrome 127.0.0.0,,,02-08-2024 13:39:49,02-08-2024 13:39:51,1.412s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-17/Page_DEMOQA/input_Password_password""), ""sHmjQe3zD30="")",Chrome 127.0.0.0,,,02-08-2024 13:39:51,02-08-2024 13:39:51,0.435s,PASSED
+"scrollToElement(findTestObject(""Object Repository/TC-17/Page_DEMOQA/button_Login""), 0)",Chrome 127.0.0.0,,,02-08-2024 13:39:51,02-08-2024 13:39:51,0.354s,PASSED
+"click(findTestObject(""Object Repository/TC-17/Page_DEMOQA/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 13:39:51,02-08-2024 13:39:52,0.351s,PASSED
+"verifyElementText(findTestObject(""TC-17/Page_DEMOQA/p_Invalid username or password""), ""Invalid username or password!"")",Chrome 127.0.0.0,,,02-08-2024 13:39:52,02-08-2024 13:39:53,1.184s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:39:53,02-08-2024 13:39:53,0.299s,PASSED
+,,,,,,,
+Test Cases/TC-18-demoqa-book,Chrome 127.0.0.0,,,02-08-2024 13:39:53,02-08-2024 13:40:32,39.120s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:39:53,02-08-2024 13:39:54,0.996s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 127.0.0.0,,,02-08-2024 13:39:54,02-08-2024 13:40:30,35.821s,PASSED
+"setText(findTestObject(""Object Repository/TC-18/Page_DEMOQA/input_Book Store API_searchBox""), ""git"")",Chrome 127.0.0.0,,,02-08-2024 13:40:30,02-08-2024 13:40:32,1.390s,PASSED
+"verifyElementText(findTestObject(""TC-18/Page_DEMOQA/a_Git Pocket Guide""), ""Git Pocket Guide"")",Chrome 127.0.0.0,,,02-08-2024 13:40:32,02-08-2024 13:40:32,0.557s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:40:32,02-08-2024 13:40:32,0.262s,PASSED

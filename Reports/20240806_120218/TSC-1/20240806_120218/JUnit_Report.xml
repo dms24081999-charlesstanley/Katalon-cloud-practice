@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC-1" time="75.082" tests="4" failures="0" errors="0">
+   <testsuite name="TS-1-expandTesting-1" tests="2" failures="0" errors="0" time="25.095" skipped="0" timestamp="06-08-2024T12:02:32" hostname="10685520 - 7Z54S93" id="Test Suites/TS-1-expandTesting-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240806_120218\\TS-1-expandTesting-1\\20240806_120219"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240806_120218\\TS-1-expandTesting-1\\20240806_120219\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 7Z54S93"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="ac294d640078d8ad4220872b3b993cc3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-14-expandTesting-pass" time="12.193" classname="Test Cases/TC-14-expandTesting-pass" status="PASSED">
+         <system-out><![CDATA[06-08-2024T12:02:33 - [TEST_CASE][PASSED] - Test Cases/TC-14-expandTesting-pass: Test Cases/TC-14-expandTesting-pass
+
+06-08-2024T12:02:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-08-2024T12:02:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-08-2024T12:02:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-08-2024T12:02:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-08-2024T12:02:37 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/secure-password-checker"): Navigate to 'https://practice.expandtesting.com/secure-password-checker' successfully
+
+06-08-2024T12:02:41 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/secure-password-checker' successfully
+
+06-08-2024T12:02:41 - [TEST_STEP][PASSED] - setText(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password"), "Dsil12Dsil"): Text 'Dsil12Dsil' is set on object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password'
+
+06-08-2024T12:02:43 - [MESSAGE][PASSED] - Text 'Dsil12Dsil' is set on object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password'
+
+06-08-2024T12:02:43 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long' is NOT visible
+
+06-08-2024T12:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long' is NOT visible
+
+06-08-2024T12:02:44 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter' is NOT visible
+
+06-08-2024T12:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter' is NOT visible
+
+06-08-2024T12:02:44 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character' is NOT visible
+
+06-08-2024T12:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character' is NOT visible
+
+06-08-2024T12:02:44 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter' is NOT visible
+
+06-08-2024T12:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter' is NOT visible
+
+06-08-2024T12:02:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-08-2024T12:02:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-15-expandTesting-calorie" time="12.534" classname="Test Cases/TC-15-expandTesting-calorie" status="PASSED">
+         <system-out><![CDATA[06-08-2024T12:02:45 - [TEST_CASE][PASSED] - Test Cases/TC-15-expandTesting-calorie: Test Cases/TC-15-expandTesting-calorie
+
+06-08-2024T12:02:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-08-2024T12:02:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-08-2024T12:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-08-2024T12:02:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-08-2024T12:02:46 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/tracalorie/"): Navigate to 'https://practice.expandtesting.com/tracalorie/' successfully
+
+06-08-2024T12:02:50 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/tracalorie/' successfully
+
+06-08-2024T12:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name"), "Mango"): Text 'Mango' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name'
+
+06-08-2024T12:02:54 - [MESSAGE][PASSED] - Text 'Mango' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name'
+
+06-08-2024T12:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories"), "4"): Text '4' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories'
+
+06-08-2024T12:02:55 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories'
+
+06-08-2024T12:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal")): Object: 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal' is clicked on
+
+06-08-2024T12:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal' is clicked on
+
+06-08-2024T12:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name"), "Chicken"): Text 'Chicken' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name'
+
+06-08-2024T12:02:56 - [MESSAGE][PASSED] - Text 'Chicken' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name'
+
+06-08-2024T12:02:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories"), "24"): Text '24' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories'
+
+06-08-2024T12:02:56 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories'
+
+06-08-2024T12:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal")): Object: 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal' is clicked on
+
+06-08-2024T12:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal' is clicked on
+
+06-08-2024T12:02:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-15/Page_Tracalorie  Meal  Calorie Tracker Automation Testing Practice/span_0"), "28"): Actual text and expected text of test object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Automation Testing Practice/span_0' are matched.
+
+06-08-2024T12:02:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Automation Testing Practice/span_0' are matched.
+
+06-08-2024T12:02:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-08-2024T12:02:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-08-2024T12:02:32 - [TEST_SUITE][PASSED] - TS-1-expandTesting-1: Test Cases/TC-15-expandTesting-calorie]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS-2-forms1" tests="2" failures="0" errors="0" time="29.016" skipped="0" timestamp="06-08-2024T12:03:09" hostname="10685520 - 7Z54S93" id="Test Suites/TS-2-forms1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240806_120218\\TS-2-forms1\\20240806_120221"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240806_120218\\TS-2-forms1\\20240806_120221\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 7Z54S93"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="2906fb6f87f34ae2414e1d2427caeda3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-05-ultimateqa-form/main" time="14.101" classname="Test Cases/TC-05-ultimateqa-form/main" status="PASSED">
+         <system-out><![CDATA[06-08-2024T12:03:09 - [TEST_CASE][PASSED] - Test Cases/TC-05-ultimateqa-form/main: Test Cases/TC-05-ultimateqa-form/main
+
+06-08-2024T12:03:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-08-2024T12:03:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+06-08-2024T12:03:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-08-2024T12:03:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-08-2024T12:03:12 - [TEST_STEP][PASSED] - navigateToUrl("https://ultimateqa.com/filling-out-forms/"): Navigate to 'https://ultimateqa.com/filling-out-forms/' successfully
+
+06-08-2024T12:03:16 - [MESSAGE][PASSED] - Navigate to 'https://ultimateqa.com/filling-out-forms/' successfully
+
+06-08-2024T12:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0"), "Jam"): Text 'Jam' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0'
+
+06-08-2024T12:03:17 - [MESSAGE][PASSED] - Text 'Jam' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0'
+
+06-08-2024T12:03:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0"), "Butter"): Text 'Butter' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0'
+
+06-08-2024T12:03:19 - [MESSAGE][PASSED] - Text 'Butter' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0'
+
+06-08-2024T12:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1"), "Sam"): Text 'Sam' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1'
+
+06-08-2024T12:03:20 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1'
+
+06-08-2024T12:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1"), "Gutt"): Text 'Gutt' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1'
+
+06-08-2024T12:03:22 - [MESSAGE][PASSED] - Text 'Gutt' is set on object 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1'
+
+06-08-2024T12:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit")): Object: 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit' is clicked on
+
+06-08-2024T12:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit' is clicked on
+
+06-08-2024T12:03:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-08-2024T12:03:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-09-orangeHRM-login" time="14.714" classname="Test Cases/TC-09-orangeHRM-login" status="PASSED">
+         <system-out><![CDATA[06-08-2024T12:03:23 - [TEST_CASE][PASSED] - Test Cases/TC-09-orangeHRM-login: Test Cases/TC-09-orangeHRM-login
+
+06-08-2024T12:03:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-08-2024T12:03:23 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+06-08-2024T12:03:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-08-2024T12:03:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-08-2024T12:03:24 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+06-08-2024T12:03:30 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+06-08-2024T12:03:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-09/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/TC-09/Page_OrangeHRM/input_Username_username'
+
+06-08-2024T12:03:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/TC-09/Page_OrangeHRM/input_Username_username'
+
+06-08-2024T12:03:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-09/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/TC-09/Page_OrangeHRM/input_Password_password'
+
+06-08-2024T12:03:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-09/Page_OrangeHRM/input_Password_password'
+
+06-08-2024T12:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-09/Page_OrangeHRM/button_Login")): Object: 'Object Repository/TC-09/Page_OrangeHRM/button_Login' is clicked on
+
+06-08-2024T12:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-09/Page_OrangeHRM/button_Login' is clicked on
+
+06-08-2024T12:03:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TC-09/Page_OrangeHRM/h6_Dashboard"), 0): Object 'Object Repository/TC-09/Page_OrangeHRM/h6_Dashboard' is present
+
+06-08-2024T12:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-08-2024T12:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/TC-09/Page_OrangeHRM/h6_Dashboard' is present
+
+06-08-2024T12:03:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-08-2024T12:03:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-08-2024T12:03:09 - [TEST_SUITE][PASSED] - TS-2-forms1: Test Cases/TC-09-orangeHRM-login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

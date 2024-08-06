@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-2-forms1,Chrome 127.0.0.0,,,01-08-2024 17:42:36,01-08-2024 17:43:41,1m - 5.076s,PASSED
+,,,,,,,
+Test Cases/TC-03-automationtesting/Register,Chrome 127.0.0.0,,,01-08-2024 17:42:36,01-08-2024 17:43:30,54.037s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:42:36,01-08-2024 17:42:39,2.498s,PASSED
+"navigateToUrl(""https://demo.automationtesting.in/Register.html"")",Chrome 127.0.0.0,,,01-08-2024 17:42:39,01-08-2024 17:42:43,3.716s,PASSED
+"setText(findTestObject(""Object Repository/TC-03/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7""), ""Dom"")",Chrome 127.0.0.0,,,01-08-2024 17:42:43,01-08-2024 17:43:15,31.858s,PASSED
+"setText(findTestObject(""Object Repository/TC-03/Page_Register/input_Full Name_form-control ng-untouched n_438cb8""), ""Sil"")",Chrome 127.0.0.0,,,01-08-2024 17:43:15,01-08-2024 17:43:15,0.661s,PASSED
+"setText(findTestObject(""Object Repository/TC-03/Page_Register/textarea_Address_form-control ng-untouched _b1abf7""), ""Nav CHS"")",Chrome 127.0.0.0,,,01-08-2024 17:43:15,01-08-2024 17:43:16,0.656s,PASSED
+"setText(findTestObject(""Object Repository/TC-03/Page_Register/input_Email address_form-control ng-untouch_b58296""), ""dsil@gmail.com"")",Chrome 127.0.0.0,,,01-08-2024 17:43:16,01-08-2024 17:43:17,0.648s,PASSED
+"setText(findTestObject(""Object Repository/TC-03/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163""), ""9876543210"")",Chrome 127.0.0.0,,,01-08-2024 17:43:17,01-08-2024 17:43:17,0.648s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/label_Male""))",Chrome 127.0.0.0,,,01-08-2024 17:43:17,01-08-2024 17:43:18,0.338s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/input_Hobbies_checkbox1""))",Chrome 127.0.0.0,,,01-08-2024 17:43:18,01-08-2024 17:43:18,0.344s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/input_Hobbies_checkbox1""))",Chrome 127.0.0.0,,,01-08-2024 17:43:18,01-08-2024 17:43:18,0.348s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/input_Cricket_checkbox2""))",Chrome 127.0.0.0,,,01-08-2024 17:43:18,01-08-2024 17:43:19,0.374s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/div_Languages_msdd""))",Chrome 127.0.0.0,,,01-08-2024 17:43:19,01-08-2024 17:43:19,0.380s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/div_Languages_msdd""))",Chrome 127.0.0.0,,,01-08-2024 17:43:19,01-08-2024 17:43:19,0.317s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/li_English""))",Chrome 127.0.0.0,,,01-08-2024 17:43:19,01-08-2024 17:43:20,0.326s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-03/Page_Register/select_Select Skills                       _fcf818""), ""C++"", true)",Chrome 127.0.0.0,,,01-08-2024 17:43:20,01-08-2024 17:43:22,1.897s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/span_Select Country_select2-selection selec_6e0c3c""))",Chrome 127.0.0.0,,,01-08-2024 17:43:22,01-08-2024 17:43:22,0.379s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-03/Page_Register/select_year                             191_0e56cb""), year, true)",Chrome 127.0.0.0,,,01-08-2024 17:43:22,01-08-2024 17:43:24,2.584s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-03/Page_Register/select_Month                               _920c21""), month, true)",Chrome 127.0.0.0,,,01-08-2024 17:43:24,01-08-2024 17:43:26,1.138s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-03/Page_Register/select_Day                                 _6d848d""), date, true)",Chrome 127.0.0.0,,,01-08-2024 17:43:26,01-08-2024 17:43:27,1.377s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-03/Page_Register/input_Password_firstpassword""), ""3Z9vEXbPUsD5eDQOwLR1+w=="")",Chrome 127.0.0.0,,,01-08-2024 17:43:27,01-08-2024 17:43:27,0.397s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/form_Full Name                             _47f0eb""))",Chrome 127.0.0.0,,,01-08-2024 17:43:27,01-08-2024 17:43:28,0.337s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-03/Page_Register/input_Confirm Password_secondpassword""), ""3Z9vEXbPUsD5eDQOwLR1+w=="")",Chrome 127.0.0.0,,,01-08-2024 17:43:28,01-08-2024 17:43:28,0.400s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/button_Submit""))",Chrome 127.0.0.0,,,01-08-2024 17:43:28,01-08-2024 17:43:28,0.364s,PASSED
+"click(findTestObject(""Object Repository/TC-03/Page_Register/button_Refresh""))",Chrome 127.0.0.0,,,01-08-2024 17:43:28,01-08-2024 17:43:30,1.274s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:43:30,01-08-2024 17:43:30,0.318s,PASSED
+,,,,,,,
+Test Cases/TC-05-ultimateqa-form/main,Chrome 127.0.0.0,,,01-08-2024 17:43:30,01-08-2024 17:43:41,10.842s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:43:30,01-08-2024 17:43:31,1.054s,PASSED
+"navigateToUrl(""https://ultimateqa.com/filling-out-forms/"")",Chrome 127.0.0.0,,,01-08-2024 17:43:31,01-08-2024 17:43:37,5.481s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0""), ""Jam"")",Chrome 127.0.0.0,,,01-08-2024 17:43:37,01-08-2024 17:43:38,1.670s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0""), ""Butter"")",Chrome 127.0.0.0,,,01-08-2024 17:43:38,01-08-2024 17:43:39,0.623s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1""), ""Sam"")",Chrome 127.0.0.0,,,01-08-2024 17:43:39,01-08-2024 17:43:40,0.644s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1""), ""Gutt"")",Chrome 127.0.0.0,,,01-08-2024 17:43:40,01-08-2024 17:43:40,0.639s,PASSED
+"click(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit""))",Chrome 127.0.0.0,,,01-08-2024 17:43:40,01-08-2024 17:43:41,0.357s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:43:41,01-08-2024 17:43:41,0.270s,PASSED

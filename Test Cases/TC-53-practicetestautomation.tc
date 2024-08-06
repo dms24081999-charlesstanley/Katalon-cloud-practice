@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-53-practicetestautomation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>58c60db6-0553-4c83-a66e-6bbaf9ca58ae</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a5fbeefc-4803-4e9d-8636-9a49e481d6f9</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC-53</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a5fbeefc-4803-4e9d-8636-9a49e481d6f9</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>373a4740-7940-417d-b8c5-2b6e970d08bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a5fbeefc-4803-4e9d-8636-9a49e481d6f9</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>c40bb6bb-f2ea-4730-a597-39db20ad0df6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>373a4740-7940-417d-b8c5-2b6e970d08bb</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c40bb6bb-f2ea-4730-a597-39db20ad0df6</id>
+      <masked>true</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

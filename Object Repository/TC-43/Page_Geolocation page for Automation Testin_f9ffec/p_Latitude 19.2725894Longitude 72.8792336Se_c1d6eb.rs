@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Latitude 19.2725894Longitude 72.8792336Se_c1d6eb</name>
+   <tag></tag>
+   <elementGuidId>16d4ade6-d01a-4395-a8e4-0c1bcd49ebf4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='geoInfo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#geoInfo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Latitude: 19.2725894Longitude: 72.8792336See it on Google&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>678df618-12b0-4486-9bfc-2cc8376a4dca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>geoInfo</value>
+      <webElementGuid>bec15f08-a3ee-4ad7-bbff-1c801861f2a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Latitude: 19.2725894Longitude: 72.8792336See it on Google</value>
+      <webElementGuid>466972a7-6d4f-4109-af83-2789508bc4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;geoInfo&quot;)</value>
+      <webElementGuid>a91b99bb-2f31-4687-aec3-723b1f51d70b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='geoInfo']</value>
+      <webElementGuid>33f5c0a3-4477-4a80-83d8-c097787ecec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Geolocation page for Automation Testing Practice'])[2]/following::p[1]</value>
+      <webElementGuid>e05b3ef5-7479-4e53-919e-033e70d0820e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Geolocation'])[1]/following::p[1]</value>
+      <webElementGuid>f3382f9b-c572-4cac-85fb-14efd37a4552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Where am I?'])[1]/preceding::p[1]</value>
+      <webElementGuid>2206e0e7-33b9-4054-b129-d6be49981761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Latitude:']/parent::*</value>
+      <webElementGuid>a3fe5f79-7d43-4e2b-a023-8bd3d6f15c9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>e2e1e7cc-0bfd-4a3c-9dde-33f8301dd032</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'geoInfo' and (text() = 'Latitude: 19.2725894Longitude: 72.8792336See it on Google' or . = 'Latitude: 19.2725894Longitude: 72.8792336See it on Google')]</value>
+      <webElementGuid>159ef1d5-5d40-49f8-bb6f-e38ffe050248</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

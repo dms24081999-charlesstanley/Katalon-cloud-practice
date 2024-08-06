@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-3-HealthCare" time="180.64" tests="2" failures="1" errors="0">
+   <testsuite name="TS-3-HealthCare" tests="2" failures="1" errors="0" time="180.64" skipped="0" timestamp="05-08-2024T20:07:17" hostname="10685520 - 7Z54S93" id="Test Suites/TS-3-HealthCare">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868687546.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868687653.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868726665.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868726727.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868764942.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868764992.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868803202.png, C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868803264.png"/>
+         <property name="hostName" value="10685520 - 7Z54S93"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="93dd1d79c429faa680f2de56db56f846"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon" time="38.279" classname="Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at HealthCare-Katalon.run(HealthCare-Katalon:33)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[05-08-2024T20:09:25 - [TEST_CASE][FAILED] - Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon: Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+05-08-2024T20:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-08-2024T20:09:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-08-2024T20:09:25 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+05-08-2024T20:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-08-2024T20:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-08-2024T20:09:26 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-08-2024T20:09:29 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-08-2024T20:09:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+05-08-2024T20:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+05-08-2024T20:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Username_username'
+
+05-08-2024T20:09:30 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Username_username'
+
+05-08-2024T20:09:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Password_password'
+
+05-08-2024T20:09:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Password_password'
+
+05-08-2024T20:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-08-2024T20:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-08-2024T20:09:31 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("TC-01/Page_CURA Healthcare Service/h2_Make Appointment"), 0): Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+05-08-2024T20:09:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-08-2024T20:10:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='appointment']/div/div/div/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+05-08-2024T20:10:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868803202.png]]
+
+05-08-2024T20:10:03 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_200704\\TS-3-HealthCare\\20240805_200705\\1722868803264.png]]]]></system-out>
+         <system-err><![CDATA[05-08-2024T20:09:25 - [TEST_CASE][FAILED] - Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon: Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-01-Katalonhealthcare/HealthCare-Apply" time="14.327" classname="Test Cases/TC-01-Katalonhealthcare/HealthCare-Apply" status="PASSED">
+         <system-out><![CDATA[05-08-2024T20:10:03 - [TEST_CASE][PASSED] - Test Cases/TC-01-Katalonhealthcare/HealthCare-Apply: Test Cases/TC-01-Katalonhealthcare/HealthCare-Apply
+
+05-08-2024T20:10:03 - [TEST_STEP][PASSED] - myCustomKeywords.login(url): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-08-2024T20:10:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-08-2024T20:10:03 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+05-08-2024T20:10:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-08-2024T20:10:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-08-2024T20:10:07 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-08-2024T20:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+05-08-2024T20:10:09 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Username_username'
+
+05-08-2024T20:10:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Password_password'
+
+05-08-2024T20:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-08-2024T20:10:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/TC-01/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+05-08-2024T20:10:11 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/TC-01/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+05-08-2024T20:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+05-08-2024T20:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+05-08-2024T20:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+05-08-2024T20:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+05-08-2024T20:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+05-08-2024T20:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+05-08-2024T20:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/td_3")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/td_3' is clicked on
+
+05-08-2024T20:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/td_3' is clicked on
+
+05-08-2024T20:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/td_31")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/td_31' is clicked on
+
+05-08-2024T20:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/td_31' is clicked on
+
+05-08-2024T20:10:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/textarea_Comment_comment"), "Hello"): Text 'Hello' is set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+05-08-2024T20:10:14 - [MESSAGE][PASSED] - Text 'Hello' is set on object 'Object Repository/TC-01/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+05-08-2024T20:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+05-08-2024T20:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+05-08-2024T20:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-01/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+05-08-2024T20:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+05-08-2024T20:10:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TC-01/Page_CURA Healthcare Service/a_Make Appointment"), 0): Object 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+05-08-2024T20:10:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-08-2024T20:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/TC-01/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+05-08-2024T20:10:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-08-2024T20:10:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-08-2024T20:07:17 - [TEST_SUITE][FAILED] - TS-3-HealthCare: Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-08-2024T20:07:17 - [TEST_SUITE][FAILED] - TS-3-HealthCare: Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at HealthCare-Katalon.run(HealthCare-Katalon:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722868625873.run(TempTestSuite1722868625873.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TC-01/Page_CURA Healthcare Service/h2_Make Appointment' located by '//section[@id='appointment']/div/div/div/h1' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-51-expandTesting-browserInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c28c200f-eba1-4c61-91f0-a0791d61a562</testCaseGuid>
+</TestCaseEntity>

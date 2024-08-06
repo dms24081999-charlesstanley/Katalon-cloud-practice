@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-2-forms1,Chrome 127.0.0.0,,,05-08-2024 19:53:56,05-08-2024 19:54:20,24.175s,PASSED
+,,,,,,,
+Test Cases/TC-05-ultimateqa-form/main,Chrome 127.0.0.0,,,05-08-2024 19:53:56,05-08-2024 19:54:10,13.486s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 19:53:57,05-08-2024 19:54:00,3.198s,PASSED
+"navigateToUrl(""https://ultimateqa.com/filling-out-forms/"")",Chrome 127.0.0.0,,,05-08-2024 19:54:00,05-08-2024 19:54:02,1.989s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0""), ""Jam"")",Chrome 127.0.0.0,,,05-08-2024 19:54:02,05-08-2024 19:54:03,0.946s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0""), ""Butter"")",Chrome 127.0.0.0,,,05-08-2024 19:54:03,05-08-2024 19:54:06,2.615s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1""), ""Sam"")",Chrome 127.0.0.0,,,05-08-2024 19:54:06,05-08-2024 19:54:08,2.577s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1""), ""Gutt"")",Chrome 127.0.0.0,,,05-08-2024 19:54:08,05-08-2024 19:54:09,0.910s,PASSED
+"click(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit""))",Chrome 127.0.0.0,,,05-08-2024 19:54:09,05-08-2024 19:54:10,0.536s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,05-08-2024 19:54:10,05-08-2024 19:54:10,0.258s,PASSED
+,,,,,,,
+Test Cases/TC-09-orangeHRM-login,Chrome 127.0.0.0,,"account,banking",05-08-2024 19:54:10,05-08-2024 19:54:20,10.379s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 19:54:10,05-08-2024 19:54:11,1.355s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,05-08-2024 19:54:11,05-08-2024 19:54:15,4.053s,PASSED
+"setText(findTestObject(""Object Repository/TC-09/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,05-08-2024 19:54:15,05-08-2024 19:54:17,1.634s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-09/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,05-08-2024 19:54:17,05-08-2024 19:54:18,0.691s,PASSED
+"click(findTestObject(""Object Repository/TC-09/Page_OrangeHRM/button_Login""))",Chrome 127.0.0.0,,,05-08-2024 19:54:18,05-08-2024 19:54:19,1.646s,PASSED
+"verifyElementPresent(findTestObject(""TC-09/Page_OrangeHRM/h6_Dashboard""), 0)",Chrome 127.0.0.0,,,05-08-2024 19:54:19,05-08-2024 19:54:20,0.636s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,05-08-2024 19:54:20,05-08-2024 19:54:20,0.211s,PASSED

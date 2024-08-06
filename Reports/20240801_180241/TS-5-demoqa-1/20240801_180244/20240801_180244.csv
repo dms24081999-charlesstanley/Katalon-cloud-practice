@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-5-demoqa-1,Chrome 127.0.0.0,,,01-08-2024 18:03:30,01-08-2024 18:03:45,15.400s,PASSED
+,,,,,,,
+Test Cases/TC-05-ultimateqa-form/main,Chrome 127.0.0.0,,,01-08-2024 18:03:30,01-08-2024 18:03:41,11.141s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 18:03:31,01-08-2024 18:03:33,2.217s,PASSED
+"navigateToUrl(""https://ultimateqa.com/filling-out-forms/"")",Chrome 127.0.0.0,,,01-08-2024 18:03:33,01-08-2024 18:03:35,1.896s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0""), ""Jam"")",Chrome 127.0.0.0,,,01-08-2024 18:03:35,01-08-2024 18:03:36,0.908s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0""), ""Butter"")",Chrome 127.0.0.0,,,01-08-2024 18:03:36,01-08-2024 18:03:38,2.070s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1""), ""Sam"")",Chrome 127.0.0.0,,,01-08-2024 18:03:38,01-08-2024 18:03:38,0.813s,PASSED
+"setText(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1""), ""Gutt"")",Chrome 127.0.0.0,,,01-08-2024 18:03:38,01-08-2024 18:03:41,2.388s,PASSED
+"click(findTestObject(""Object Repository/TC-05/Page_Filling Out Forms - Ultimate QA/button_Submit""))",Chrome 127.0.0.0,,,01-08-2024 18:03:41,01-08-2024 18:03:41,0.346s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 18:03:41,01-08-2024 18:03:41,0.176s,PASSED
+,,,,,,,
+Test Cases/TC-06-ultimateqa-price/main,Chrome 127.0.0.0,,,01-08-2024 18:03:41,01-08-2024 18:03:45,4.071s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 18:03:41,01-08-2024 18:03:42,1.041s,PASSED
+"navigateToUrl(""https://ultimateqa.com/automation/fake-pricing-page/"")",Chrome 127.0.0.0,,,01-08-2024 18:03:42,01-08-2024 18:03:44,1.800s,PASSED
+"verifyElementText(findTestObject(""TC-06/Page_Fake pricing page - Ultimate QA/span_0""), ""$0"")",Chrome 127.0.0.0,,,01-08-2024 18:03:44,01-08-2024 18:03:45,0.410s,PASSED
+"verifyElementText(findTestObject(""TC-06/Page_Fake pricing page - Ultimate QA/span_80""), ""$80"")",Chrome 127.0.0.0,,,01-08-2024 18:03:45,01-08-2024 18:03:45,0.320s,PASSED
+"verifyElementText(findTestObject(""TC-06/Page_Fake pricing page - Ultimate QA/span_900""), ""$900"")",Chrome 127.0.0.0,,,01-08-2024 18:03:45,01-08-2024 18:03:45,0.291s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 18:03:45,01-08-2024 18:03:45,0.121s,PASSED

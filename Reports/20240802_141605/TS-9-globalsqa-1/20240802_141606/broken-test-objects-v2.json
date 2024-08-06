@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment",
+      "brokenLocator": "//textarea[@id\u003d\u0027contact-form-comment-g2599-comment\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea[@id\u003d\u0027contact-form-comment-g2599-comment\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240802_141605/TS-9-globalsqa-1/20240802_141606/Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment_attributes.png"
+    }
+  ]
+}

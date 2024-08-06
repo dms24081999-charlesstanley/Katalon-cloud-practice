@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-26-globalsqa-calc</name>
+   <tag>calculator,addition</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3c57ca5-3b68-43fd-9b28-76389dd0455f</testCaseGuid>
+</TestCaseEntity>

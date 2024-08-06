@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>main</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23addd4d-b77a-47d8-82a8-749a50009cc4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6b9bc9e-6a91-46e9-85df-98440324101b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Learn to Code Websites, Apps &amp; Games'</defaultValue>
+      <description></description>
+      <id>c6b9bc9e-6a91-46e9-85df-98440324101b</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

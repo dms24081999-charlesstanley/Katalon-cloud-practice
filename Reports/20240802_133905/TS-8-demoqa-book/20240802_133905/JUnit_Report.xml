@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-8-demoqa-book" time="80.082" tests="2" failures="0" errors="0">
+   <testsuite name="TS-8-demoqa-book" tests="2" failures="0" errors="0" time="80.082" skipped="0" timestamp="02-08-2024T13:39:12" hostname="10685520 - 10.202.112.43" id="Test Suites/TS-8-demoqa-book">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_133905\\TS-8-demoqa-book\\20240802_133905"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_133905\\TS-8-demoqa-book\\20240802_133905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 10.202.112.43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="10.202.112.43"/>
+         <property name="sessionId" value="76ee50b96d2b14c656e85b1cfc177e82"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-17-demoqa-book-login" time="40.747" classname="Test Cases/TC-17-demoqa-book-login" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:39:13 - [TEST_CASE][PASSED] - Test Cases/TC-17-demoqa-book-login: Test Cases/TC-17-demoqa-book-login
+
+02-08-2024T13:39:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:39:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T13:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:39:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:39:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/login"): Navigate to 'https://demoqa.com/login' successfully
+
+02-08-2024T13:39:49 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/login' successfully
+
+02-08-2024T13:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-17/Page_DEMOQA/input_UserName_userName"), "dms"): Text 'dms' is set on object 'Object Repository/TC-17/Page_DEMOQA/input_UserName_userName'
+
+02-08-2024T13:39:51 - [MESSAGE][PASSED] - Text 'dms' is set on object 'Object Repository/TC-17/Page_DEMOQA/input_UserName_userName'
+
+02-08-2024T13:39:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-17/Page_DEMOQA/input_Password_password"), "sHmjQe3zD30="): Text ****** has been set on object 'Object Repository/TC-17/Page_DEMOQA/input_Password_password'
+
+02-08-2024T13:39:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-17/Page_DEMOQA/input_Password_password'
+
+02-08-2024T13:39:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/TC-17/Page_DEMOQA/button_Login"), 0): Scroll to object 'Object Repository/TC-17/Page_DEMOQA/button_Login' successfully
+
+02-08-2024T13:39:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-08-2024T13:39:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC-17/Page_DEMOQA/button_Login' successfully
+
+02-08-2024T13:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-17/Page_DEMOQA/button_Login")): Object: 'Object Repository/TC-17/Page_DEMOQA/button_Login' is clicked on
+
+02-08-2024T13:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-17/Page_DEMOQA/button_Login' is clicked on
+
+02-08-2024T13:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-17/Page_DEMOQA/p_Invalid username or password"), "Invalid username or password!"): Actual text and expected text of test object 'Object Repository/TC-17/Page_DEMOQA/p_Invalid username or password' are matched.
+
+02-08-2024T13:39:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-17/Page_DEMOQA/p_Invalid username or password' are matched.
+
+02-08-2024T13:39:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:39:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-18-demoqa-book" time="39.12" classname="Test Cases/TC-18-demoqa-book" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:39:53 - [TEST_CASE][PASSED] - Test Cases/TC-18-demoqa-book: Test Cases/TC-18-demoqa-book
+
+02-08-2024T13:39:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:39:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T13:39:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:39:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:39:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/books"): Navigate to 'https://demoqa.com/books' successfully
+
+02-08-2024T13:40:30 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/books' successfully
+
+02-08-2024T13:40:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-18/Page_DEMOQA/input_Book Store API_searchBox"), "git"): Text 'git' is set on object 'Object Repository/TC-18/Page_DEMOQA/input_Book Store API_searchBox'
+
+02-08-2024T13:40:32 - [MESSAGE][PASSED] - Text 'git' is set on object 'Object Repository/TC-18/Page_DEMOQA/input_Book Store API_searchBox'
+
+02-08-2024T13:40:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-18/Page_DEMOQA/a_Git Pocket Guide"), "Git Pocket Guide"): Actual text and expected text of test object 'Object Repository/TC-18/Page_DEMOQA/a_Git Pocket Guide' are matched.
+
+02-08-2024T13:40:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-18/Page_DEMOQA/a_Git Pocket Guide' are matched.
+
+02-08-2024T13:40:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:40:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T13:39:12 - [TEST_SUITE][PASSED] - TS-8-demoqa-book: Test Cases/TC-18-demoqa-book]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

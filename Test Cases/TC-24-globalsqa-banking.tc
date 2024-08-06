@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-24-globalsqa-banking</name>
+   <tag>banking,account</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4b6af81-1e0d-42d1-8394-074609a783a4</testCaseGuid>
+</TestCaseEntity>

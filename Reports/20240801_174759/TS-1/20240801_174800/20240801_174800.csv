@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-1,Chrome 127.0.0.0,,,01-08-2024 17:48:10,01-08-2024 17:49:34,1m - 23.574s,PASSED
+,,,,,,,
+Test Cases/TC-11-expandTesting-login,Chrome 127.0.0.0,,,01-08-2024 17:48:10,01-08-2024 17:48:32,21.893s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:48:11,01-08-2024 17:48:13,2.419s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/login"")",Chrome 127.0.0.0,,,01-08-2024 17:48:13,01-08-2024 17:48:15,2.031s,PASSED
+"setText(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username""), username)",Chrome 127.0.0.0,,,01-08-2024 17:48:15,01-08-2024 17:48:17,1.761s,PASSED
+"setText(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password""), password)",Chrome 127.0.0.0,,,01-08-2024 17:48:17,01-08-2024 17:48:18,0.828s,PASSED
+"click(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login""))",Chrome 127.0.0.0,,,01-08-2024 17:48:18,01-08-2024 17:48:31,12.954s,PASSED
+"verifyElementVisible(findTestObject(""TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid""))",Chrome 127.0.0.0,,,01-08-2024 17:48:31,01-08-2024 17:48:32,1.316s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:48:32,01-08-2024 17:48:32,0.247s,PASSED
+,,,,,,,
+Test Cases/TC-14-expandTesting-pass,Chrome 127.0.0.0,,,01-08-2024 17:48:32,01-08-2024 17:48:45,12.906s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:48:32,01-08-2024 17:48:33,1.023s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/secure-password-checker"")",Chrome 127.0.0.0,,,01-08-2024 17:48:33,01-08-2024 17:48:42,8.344s,PASSED
+"setText(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password""), ""Dsil12Dsil"")",Chrome 127.0.0.0,,,01-08-2024 17:48:42,01-08-2024 17:48:44,1.974s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long""))",Chrome 127.0.0.0,,,01-08-2024 17:48:44,01-08-2024 17:48:44,0.315s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter""))",Chrome 127.0.0.0,,,01-08-2024 17:48:44,01-08-2024 17:48:44,0.317s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character""))",Chrome 127.0.0.0,,,01-08-2024 17:48:44,01-08-2024 17:48:45,0.287s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter""))",Chrome 127.0.0.0,,,01-08-2024 17:48:45,01-08-2024 17:48:45,0.319s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:48:45,01-08-2024 17:48:45,0.220s,PASSED
+,,,,,,,
+Test Cases/TC-12-expandTesting-contact,Chrome 127.0.0.0,,,01-08-2024 17:49:25,01-08-2024 17:49:34,8.908s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:49:25,01-08-2024 17:49:26,1.400s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/contact"")",Chrome 127.0.0.0,,,01-08-2024 17:49:26,01-08-2024 17:49:29,2.757s,PASSED
+"setText(findTestObject(""Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/input_Name_form-control""), ""dom@gmail.com"")",Chrome 127.0.0.0,,,01-08-2024 17:49:29,01-08-2024 17:49:31,1.528s,PASSED
+"setText(findTestObject(""Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/textarea_You message_address""), ""dom sil"")",Chrome 127.0.0.0,,,01-08-2024 17:49:31,01-08-2024 17:49:31,0.568s,PASSED
+"click(findTestObject(""Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/a_Send""))",Chrome 127.0.0.0,,,01-08-2024 17:49:31,01-08-2024 17:49:34,2.405s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:49:34,01-08-2024 17:49:34,0.233s,PASSED

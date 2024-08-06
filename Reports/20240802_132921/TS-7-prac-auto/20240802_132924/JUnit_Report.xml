@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-7-prac-auto" time="34.523" tests="2" failures="0" errors="0">
+   <testsuite name="TS-7-prac-auto" tests="2" failures="0" errors="0" time="34.523" skipped="0" timestamp="02-08-2024T13:29:39" hostname="10685520 - 10.202.112.43" id="Test Suites/TS-7-prac-auto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_132921\\TS-7-prac-auto\\20240802_132924"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_132921\\TS-7-prac-auto\\20240802_132924\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 10.202.112.43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="10.202.112.43"/>
+         <property name="sessionId" value="59088fe7ec161486ee6598e67cff06a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-22-prac-auto-form" time="27.883" classname="Test Cases/TC-22-prac-auto-form" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:29:39 - [TEST_CASE][PASSED] - Test Cases/TC-22-prac-auto-form: Test Cases/TC-22-prac-auto-form
+
+02-08-2024T13:29:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:29:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T13:29:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:29:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:29:43 - [TEST_STEP][PASSED] - navigateToUrl("https://practice-automation.com/form-fields/"): Navigate to 'https://practice-automation.com/form-fields/' successfully
+
+02-08-2024T13:29:45 - [MESSAGE][PASSED] - Navigate to 'https://practice-automation.com/form-fields/' successfully
+
+02-08-2024T13:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/p_Required")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/p_Required' is clicked on
+
+02-08-2024T13:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/p_Required' is clicked on
+
+02-08-2024T13:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Name_name-input"), "dom"): Text 'dom' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Name_name-input'
+
+02-08-2024T13:29:47 - [MESSAGE][PASSED] - Text 'dom' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Name_name-input'
+
+02-08-2024T13:29:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/input_password"), "0FrbqWz3kIQ="): Text ****** has been set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_password'
+
+02-08-2024T13:29:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_password'
+
+02-08-2024T13:29:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water"), 0): Scroll to object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water' successfully
+
+02-08-2024T13:29:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-08-2024T13:29:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water' successfully
+
+02-08-2024T13:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water' is clicked on
+
+02-08-2024T13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water' is clicked on
+
+02-08-2024T13:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Milk")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Milk' is clicked on
+
+02-08-2024T13:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Milk' is clicked on
+
+02-08-2024T13:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Green")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Green' is clicked on
+
+02-08-2024T13:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Green' is clicked on
+
+02-08-2024T13:29:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/select_Yes  No  Undecided"), "yes", true): All options with value 'yes' are selected in object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/select_Yes  No  Undecided'  using regular expression
+
+02-08-2024T13:29:50 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/select_Yes  No  Undecided'  using regular expression
+
+02-08-2024T13:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/li_Katalon Studio")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/li_Katalon Studio' is clicked on
+
+02-08-2024T13:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/li_Katalon Studio' is clicked on
+
+02-08-2024T13:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Email_email"), "dsil@gmail.com"): Text 'dsil@gmail.com' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Email_email'
+
+02-08-2024T13:30:05 - [MESSAGE][PASSED] - Text 'dsil@gmail.com' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Email_email'
+
+02-08-2024T13:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/textarea_Message_message"), "Hello"): Text 'Hello' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/textarea_Message_message'
+
+02-08-2024T13:30:06 - [MESSAGE][PASSED] - Text 'Hello' is set on object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/textarea_Message_message'
+
+02-08-2024T13:30:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit"), 0): Scroll to object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit' successfully
+
+02-08-2024T13:30:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-08-2024T13:30:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit' successfully
+
+02-08-2024T13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit")): Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit' is clicked on
+
+02-08-2024T13:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit' is clicked on
+
+02-08-2024T13:30:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:30:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-23-prac-auto-slider" time="6.106" classname="Test Cases/TC-23-prac-auto-slider" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:30:07 - [TEST_CASE][PASSED] - Test Cases/TC-23-prac-auto-slider: Test Cases/TC-23-prac-auto-slider
+
+02-08-2024T13:30:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:30:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T13:30:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:30:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:30:08 - [TEST_STEP][PASSED] - navigateToUrl("https://practice-automation.com/tables/"): Navigate to 'https://practice-automation.com/tables/' successfully
+
+02-08-2024T13:30:11 - [MESSAGE][PASSED] - Navigate to 'https://practice-automation.com/tables/' successfully
+
+02-08-2024T13:30:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-23/Page_Tables  Practice Automation/input_search"), "india"): Text 'india' is set on object 'Object Repository/TC-23/Page_Tables  Practice Automation/input_search'
+
+02-08-2024T13:30:12 - [MESSAGE][PASSED] - Text 'india' is set on object 'Object Repository/TC-23/Page_Tables  Practice Automation/input_search'
+
+02-08-2024T13:30:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-23/Page_Tables  Practice Automation/td_1,429"), "1,429"): Actual text and expected text of test object 'Object Repository/TC-23/Page_Tables  Practice Automation/td_1,429' are matched.
+
+02-08-2024T13:30:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-23/Page_Tables  Practice Automation/td_1,429' are matched.
+
+02-08-2024T13:30:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:30:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T13:29:39 - [TEST_SUITE][PASSED] - TS-7-prac-auto: Test Cases/TC-23-prac-auto-slider]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

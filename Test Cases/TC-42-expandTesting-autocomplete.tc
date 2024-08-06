@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-42-expandTesting-autocomplete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68eadf40-414f-4db7-94e3-7f0aaa552e55</testCaseGuid>
+</TestCaseEntity>

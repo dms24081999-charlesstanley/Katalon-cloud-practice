@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-4-demoblaze,Chrome 127.0.0.0,,,05-08-2024 20:07:26,05-08-2024 20:08:03,36.499s,PASSED
+,,,,,,,
+Test Cases/TC-20-demoblaze,Chrome 127.0.0.0,,,05-08-2024 20:07:28,05-08-2024 20:07:43,15.758s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 20:07:29,05-08-2024 20:07:35,6.373s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,05-08-2024 20:07:35,05-08-2024 20:07:36,1.115s,PASSED
+"click(findTestObject(""Object Repository/TC-20-demoblaze-product/Page_STORE/a_Iphone 6 32gb""))",Chrome 127.0.0.0,,,05-08-2024 20:07:36,05-08-2024 20:07:42,5.887s,PASSED
+"verifyElementText(findTestObject(""TC-20-demoblaze-product/Page_STORE/h2_Iphone 6 32gb""), title)",Chrome 127.0.0.0,,,05-08-2024 20:07:42,05-08-2024 20:07:43,1.085s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,05-08-2024 20:07:43,05-08-2024 20:07:43,0.248s,PASSED
+,,,,,,,
+Test Cases/TC-21-demoblaze-contact,Chrome 127.0.0.0,,,05-08-2024 20:07:43,05-08-2024 20:08:03,19.570s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 20:07:43,05-08-2024 20:07:45,1.435s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/cart.html"")",Chrome 127.0.0.0,,,05-08-2024 20:07:45,05-08-2024 20:07:46,0.755s,PASSED
+"click(findTestObject(""Object Repository/TC-21/Page_STORE/a_Contact""))",Chrome 127.0.0.0,,,05-08-2024 20:07:46,05-08-2024 20:07:58,12.664s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/input_Contact Email_recipient-email""), ""stesting@gmail.com"")",Chrome 127.0.0.0,,,05-08-2024 20:07:58,05-08-2024 20:08:00,1.577s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/input_Contact Name_recipient-name""), ""tester"")",Chrome 127.0.0.0,,,05-08-2024 20:08:00,05-08-2024 20:08:01,0.999s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/textarea_Message_message-text""), ""1234"")",Chrome 127.0.0.0,,,05-08-2024 20:08:01,05-08-2024 20:08:02,0.777s,PASSED
+"click(findTestObject(""Object Repository/TC-21/Page_STORE/button_Send message""))",Chrome 127.0.0.0,,,05-08-2024 20:08:02,05-08-2024 20:08:02,0.661s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,05-08-2024 20:08:02,05-08-2024 20:08:03,0.543s,PASSED

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-7-prac-auto,Chrome 127.0.0.0,,,02-08-2024 13:29:39,02-08-2024 13:30:13,34.523s,PASSED
+,,,,,,,
+Test Cases/TC-22-prac-auto-form,Chrome 127.0.0.0,,,02-08-2024 13:29:39,02-08-2024 13:30:07,27.883s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:29:40,02-08-2024 13:29:43,3.014s,PASSED
+"navigateToUrl(""https://practice-automation.com/form-fields/"")",Chrome 127.0.0.0,,,02-08-2024 13:29:43,02-08-2024 13:29:45,2.209s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/p_Required""))",Chrome 127.0.0.0,,,02-08-2024 13:29:45,02-08-2024 13:29:46,1.110s,PASSED
+"setText(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Name_name-input""), ""dom"")",Chrome 127.0.0.0,,,02-08-2024 13:29:46,02-08-2024 13:29:47,0.758s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/input_password""), ""0FrbqWz3kIQ="")",Chrome 127.0.0.0,,,02-08-2024 13:29:47,02-08-2024 13:29:47,0.420s,PASSED
+"scrollToElement(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water""), 0)",Chrome 127.0.0.0,,,02-08-2024 13:29:47,02-08-2024 13:29:48,0.337s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Water""))",Chrome 127.0.0.0,,,02-08-2024 13:29:48,02-08-2024 13:29:48,0.326s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Milk""))",Chrome 127.0.0.0,,,02-08-2024 13:29:48,02-08-2024 13:29:48,0.334s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/label_Green""))",Chrome 127.0.0.0,,,02-08-2024 13:29:48,02-08-2024 13:29:49,0.316s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/select_Yes  No  Undecided""), ""yes"", true)",Chrome 127.0.0.0,,,02-08-2024 13:29:49,02-08-2024 13:29:50,1.005s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/li_Katalon Studio""))",Chrome 127.0.0.0,,,02-08-2024 13:29:50,02-08-2024 13:30:05,15.181s,PASSED
+"setText(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/input_Email_email""), ""dsil@gmail.com"")",Chrome 127.0.0.0,,,02-08-2024 13:30:05,02-08-2024 13:30:05,0.634s,PASSED
+"setText(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/textarea_Message_message""), ""Hello"")",Chrome 127.0.0.0,,,02-08-2024 13:30:05,02-08-2024 13:30:06,0.639s,PASSED
+"scrollToElement(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit""), 0)",Chrome 127.0.0.0,,,02-08-2024 13:30:06,02-08-2024 13:30:06,0.279s,PASSED
+"click(findTestObject(""Object Repository/TC-22/Page_Form Fields  Practice Automation/button_Submit""))",Chrome 127.0.0.0,,,02-08-2024 13:30:06,02-08-2024 13:30:07,0.309s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:30:07,02-08-2024 13:30:07,0.268s,PASSED
+,,,,,,,
+Test Cases/TC-23-prac-auto-slider,Chrome 127.0.0.0,,,02-08-2024 13:30:07,02-08-2024 13:30:13,6.106s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:30:07,02-08-2024 13:30:08,1.225s,PASSED
+"navigateToUrl(""https://practice-automation.com/tables/"")",Chrome 127.0.0.0,,,02-08-2024 13:30:08,02-08-2024 13:30:11,2.750s,PASSED
+"setText(findTestObject(""Object Repository/TC-23/Page_Tables  Practice Automation/input_search""), ""india"")",Chrome 127.0.0.0,,,02-08-2024 13:30:11,02-08-2024 13:30:12,1.203s,PASSED
+"verifyElementText(findTestObject(""TC-23/Page_Tables  Practice Automation/td_1,429""), ""1,429"")",Chrome 127.0.0.0,,,02-08-2024 13:30:12,02-08-2024 13:30:13,0.512s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:30:13,02-08-2024 13:30:13,0.282s,PASSED

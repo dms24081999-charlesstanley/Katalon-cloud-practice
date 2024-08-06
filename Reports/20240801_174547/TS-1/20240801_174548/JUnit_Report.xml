@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-1" time="72.368" tests="3" failures="0" errors="0">
+   <testsuite name="TS-1" tests="3" failures="0" errors="0" time="72.368" skipped="0" timestamp="01-08-2024T17:46:00" hostname="10685520 - 7Z54S93" id="Test Suites/TS-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240801_174547\\TS-1\\20240801_174548"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240801_174547\\TS-1\\20240801_174548\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 7Z54S93"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="264e41d7d5d4296831169f4bcea959ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-11-expandTesting-login" time="26.233" classname="Test Cases/TC-11-expandTesting-login" status="PASSED">
+         <system-out><![CDATA[01-08-2024T17:46:01 - [TEST_CASE][PASSED] - Test Cases/TC-11-expandTesting-login: Test Cases/TC-11-expandTesting-login
+
+01-08-2024T17:46:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-08-2024T17:46:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-08-2024T17:46:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-08-2024T17:46:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-08-2024T17:46:04 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/login"): Navigate to 'https://practice.expandtesting.com/login' successfully
+
+01-08-2024T17:46:10 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/login' successfully
+
+01-08-2024T17:46:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username"), username): Text 'practice' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username'
+
+01-08-2024T17:46:12 - [MESSAGE][PASSED] - Text 'practice' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username'
+
+01-08-2024T17:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password"), password): Text 'SuperSecretPassword!' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password'
+
+01-08-2024T17:46:13 - [MESSAGE][PASSED] - Text 'SuperSecretPassword!' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password'
+
+01-08-2024T17:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login")): Object: 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login' is clicked on
+
+01-08-2024T17:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login' is clicked on
+
+01-08-2024T17:46:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid")): Object 'Object Repository/TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid' is visible
+
+01-08-2024T17:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid' is visible
+
+01-08-2024T17:46:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-08-2024T17:46:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-14-expandTesting-pass" time="7.638" classname="Test Cases/TC-14-expandTesting-pass" status="PASSED">
+         <system-out><![CDATA[01-08-2024T17:46:27 - [TEST_CASE][PASSED] - Test Cases/TC-14-expandTesting-pass: Test Cases/TC-14-expandTesting-pass
+
+01-08-2024T17:46:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-08-2024T17:46:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-08-2024T17:46:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-08-2024T17:46:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-08-2024T17:46:28 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/secure-password-checker"): Navigate to 'https://practice.expandtesting.com/secure-password-checker' successfully
+
+01-08-2024T17:46:32 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/secure-password-checker' successfully
+
+01-08-2024T17:46:32 - [TEST_STEP][PASSED] - setText(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password"), "Dsil12Dsil"): Text 'Dsil12Dsil' is set on object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password'
+
+01-08-2024T17:46:33 - [MESSAGE][PASSED] - Text 'Dsil12Dsil' is set on object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password'
+
+01-08-2024T17:46:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long' is NOT visible
+
+01-08-2024T17:46:33 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long' is NOT visible
+
+01-08-2024T17:46:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter' is NOT visible
+
+01-08-2024T17:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter' is NOT visible
+
+01-08-2024T17:46:34 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character' is NOT visible
+
+01-08-2024T17:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character' is NOT visible
+
+01-08-2024T17:46:34 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter")): Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter' is NOT visible
+
+01-08-2024T17:46:34 - [MESSAGE][PASSED] - Object 'Object Repository/TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter' is NOT visible
+
+01-08-2024T17:46:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-08-2024T17:46:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-12-expandTesting-contact" time="38.256" classname="Test Cases/TC-12-expandTesting-contact" status="PASSED">
+         <system-out><![CDATA[01-08-2024T17:46:35 - [TEST_CASE][PASSED] - Test Cases/TC-12-expandTesting-contact: Test Cases/TC-12-expandTesting-contact
+
+01-08-2024T17:46:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-08-2024T17:46:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-08-2024T17:46:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-08-2024T17:46:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-08-2024T17:46:36 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/contact"): Navigate to 'https://practice.expandtesting.com/contact' successfully
+
+01-08-2024T17:46:42 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/contact' successfully
+
+01-08-2024T17:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/input_Name_form-control"), "dom@gmail.com"): Text 'dom@gmail.com' is set on object 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/input_Name_form-control'
+
+01-08-2024T17:46:44 - [MESSAGE][PASSED] - Text 'dom@gmail.com' is set on object 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/input_Name_form-control'
+
+01-08-2024T17:46:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/textarea_You message_address"), "dom sil"): Text 'dom sil' is set on object 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/textarea_You message_address'
+
+01-08-2024T17:46:45 - [MESSAGE][PASSED] - Text 'dom sil' is set on object 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/textarea_You message_address'
+
+01-08-2024T17:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/a_Send")): Object: 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/a_Send' is clicked on
+
+01-08-2024T17:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-12/Page_Contact form page for Automation Testi_fb6edd/a_Send' is clicked on
+
+01-08-2024T17:47:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-08-2024T17:47:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-08-2024T17:46:00 - [TEST_SUITE][PASSED] - TS-1: Test Cases/TC-12-expandTesting-contact]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

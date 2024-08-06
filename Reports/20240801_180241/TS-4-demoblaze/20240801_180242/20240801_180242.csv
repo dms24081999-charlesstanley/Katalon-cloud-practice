@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-4-demoblaze,Chrome 127.0.0.0,,,01-08-2024 18:02:53,01-08-2024 18:03:19,25.970s,PASSED
+,,,,,,,
+Test Cases/TC-20-demoblaze,Chrome 127.0.0.0,,,01-08-2024 18:02:53,01-08-2024 18:03:02,9.102s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 18:02:54,01-08-2024 18:02:56,2.197s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/"")",Chrome 127.0.0.0,,,01-08-2024 18:02:56,01-08-2024 18:02:58,2.311s,PASSED
+"click(findTestObject(""Object Repository/TC-20-demoblaze-product/Page_STORE/a_Iphone 6 32gb""))",Chrome 127.0.0.0,,,01-08-2024 18:02:58,01-08-2024 18:03:01,2.557s,PASSED
+"verifyElementText(findTestObject(""TC-20-demoblaze-product/Page_STORE/h2_Iphone 6 32gb""), title)",Chrome 127.0.0.0,,,01-08-2024 18:03:01,01-08-2024 18:03:02,1.403s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 18:03:02,01-08-2024 18:03:02,0.258s,PASSED
+,,,,,,,
+Test Cases/TC-21-demoblaze-contact,Chrome 127.0.0.0,,,01-08-2024 18:03:02,01-08-2024 18:03:19,16.649s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 18:03:03,01-08-2024 18:03:04,1.110s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/cart.html"")",Chrome 127.0.0.0,,,01-08-2024 18:03:04,01-08-2024 18:03:06,2.024s,PASSED
+"click(findTestObject(""Object Repository/TC-21/Page_STORE/a_Contact""))",Chrome 127.0.0.0,,,01-08-2024 18:03:06,01-08-2024 18:03:15,9.680s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/input_Contact Email_recipient-email""), ""stesting@gmail.com"")",Chrome 127.0.0.0,,,01-08-2024 18:03:15,01-08-2024 18:03:16,0.931s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/input_Contact Name_recipient-name""), ""tester"")",Chrome 127.0.0.0,,,01-08-2024 18:03:16,01-08-2024 18:03:17,0.638s,PASSED
+"setText(findTestObject(""Object Repository/TC-21/Page_STORE/textarea_Message_message-text""), ""1234"")",Chrome 127.0.0.0,,,01-08-2024 18:03:17,01-08-2024 18:03:18,0.627s,PASSED
+"click(findTestObject(""Object Repository/TC-21/Page_STORE/button_Send message""))",Chrome 127.0.0.0,,,01-08-2024 18:03:18,01-08-2024 18:03:18,0.315s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 18:03:18,01-08-2024 18:03:19,1.203s,PASSED

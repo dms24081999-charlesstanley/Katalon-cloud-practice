@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-11-globalsqa-3" time="19.352" tests="2" failures="0" errors="0">
+   <testsuite name="TS-11-globalsqa-3" tests="2" failures="0" errors="0" time="19.352" skipped="0" timestamp="05-08-2024T19:53:11" hostname="10685520 - 7Z54S93" id="Test Suites/TS-11-globalsqa-3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_195302\\TS-11-globalsqa-3\\20240805_195302"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240805_195302\\TS-11-globalsqa-3\\20240805_195302\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 7Z54S93"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="92e8bc5f581f88d61c8f0b68a0bd6585"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-28-globalsqa-register" time="10.546" classname="Test Cases/TC-28-globalsqa-register" status="PASSED">
+         <system-out><![CDATA[05-08-2024T19:53:11 - [TEST_CASE][PASSED] - Test Cases/TC-28-globalsqa-register: Test Cases/TC-28-globalsqa-register
+
+05-08-2024T19:53:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-08-2024T19:53:12 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+05-08-2024T19:53:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-08-2024T19:53:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-08-2024T19:53:15 - [TEST_STEP][PASSED] - navigateToUrl("https://globalsqa.com/angularJs-protractor/registration-login-example/#/register"): Navigate to 'https://globalsqa.com/angularJs-protractor/registration-login-example/#/register' successfully
+
+05-08-2024T19:53:18 - [MESSAGE][PASSED] - Navigate to 'https://globalsqa.com/angularJs-protractor/registration-login-example/#/register' successfully
+
+05-08-2024T19:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_First name_firstName"), "Dom"): Text 'Dom' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_First name_firstName'
+
+05-08-2024T19:53:19 - [MESSAGE][PASSED] - Text 'Dom' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_First name_firstName'
+
+05-08-2024T19:53:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Last name_lastName"), "Sil"): Text 'Sil' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Last name_lastName'
+
+05-08-2024T19:53:20 - [MESSAGE][PASSED] - Text 'Sil' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Last name_lastName'
+
+05-08-2024T19:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Username_username"), "dsil"): Text 'dsil' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Username_username'
+
+05-08-2024T19:53:21 - [MESSAGE][PASSED] - Text 'dsil' is set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Username_username'
+
+05-08-2024T19:53:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Password_password"), "0k9G2X5i1stHXDYZerjoew=="): Text ****** has been set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Password_password'
+
+05-08-2024T19:53:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Password_password'
+
+05-08-2024T19:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-28/Page_AngularJS User Registration and Login Example/button_Register")): Object: 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/button_Register' is clicked on
+
+05-08-2024T19:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-28/Page_AngularJS User Registration and Login Example/button_Register' is clicked on
+
+05-08-2024T19:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-08-2024T19:53:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-29-globalsqa-login" time="8.529" classname="Test Cases/TC-29-globalsqa-login" status="PASSED">
+         <system-out><![CDATA[05-08-2024T19:53:22 - [TEST_CASE][PASSED] - Test Cases/TC-29-globalsqa-login: Test Cases/TC-29-globalsqa-login
+
+05-08-2024T19:53:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-08-2024T19:53:22 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+05-08-2024T19:53:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-08-2024T19:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-08-2024T19:53:23 - [TEST_STEP][PASSED] - navigateToUrl("https://globalsqa.com/angularJs-protractor/registration-login-example/#/login"): Navigate to 'https://globalsqa.com/angularJs-protractor/registration-login-example/#/login' successfully
+
+05-08-2024T19:53:25 - [MESSAGE][PASSED] - Navigate to 'https://globalsqa.com/angularJs-protractor/registration-login-example/#/login' successfully
+
+05-08-2024T19:53:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Username_username"), "dom"): Text 'dom' is set on object 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Username_username'
+
+05-08-2024T19:53:27 - [MESSAGE][PASSED] - Text 'dom' is set on object 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Username_username'
+
+05-08-2024T19:53:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Password_password"), "l95YM5zx+C4="): Text ****** has been set on object 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Password_password'
+
+05-08-2024T19:53:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Password_password'
+
+05-08-2024T19:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-29/Page_AngularJS User Registration and Login Example/button_Login")): Object: 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/button_Login' is clicked on
+
+05-08-2024T19:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-29/Page_AngularJS User Registration and Login Example/button_Login' is clicked on
+
+05-08-2024T19:53:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+05-08-2024T19:53:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+05-08-2024T19:53:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-08-2024T19:53:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-08-2024T19:53:11 - [TEST_SUITE][PASSED] - TS-11-globalsqa-3: Test Cases/TC-29-globalsqa-login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

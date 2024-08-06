@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+forms1,Chrome 126.0.0.0,,,26-07-2024 17:29:45,26-07-2024 17:30:46,1m - 1.179s,PASSED
+,,,,,,,
+Test Cases/TestCase3/Register,Chrome 126.0.0.0,,,26-07-2024 17:29:45,26-07-2024 17:30:35,50.316s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,26-07-2024 17:29:45,26-07-2024 17:29:48,2.225s,PASSED
+"navigateToUrl(""https://demo.automationtesting.in/Register.html"")",Chrome 126.0.0.0,,,26-07-2024 17:29:48,26-07-2024 17:29:50,2.764s,PASSED
+"setText(findTestObject(""Object Repository/Register1/Page_Register/input_Full Name_form-control ng-pristine ng_10dee7""), ""Dom"")",Chrome 126.0.0.0,,,26-07-2024 17:29:50,26-07-2024 17:30:11,20.194s,PASSED
+"setText(findTestObject(""Object Repository/Register1/Page_Register/input_Full Name_form-control ng-untouched n_438cb8""), ""Sil"")",Chrome 126.0.0.0,,,26-07-2024 17:30:11,26-07-2024 17:30:12,1.288s,PASSED
+"setText(findTestObject(""Object Repository/Register1/Page_Register/textarea_Address_form-control ng-untouched _b1abf7""), ""Nav CHS"")",Chrome 126.0.0.0,,,26-07-2024 17:30:12,26-07-2024 17:30:13,1.227s,PASSED
+"setText(findTestObject(""Object Repository/Register1/Page_Register/input_Email address_form-control ng-untouch_b58296""), ""dsil@gmail.com"")",Chrome 126.0.0.0,,,26-07-2024 17:30:13,26-07-2024 17:30:14,1.066s,PASSED
+"setText(findTestObject(""Object Repository/Register1/Page_Register/input_Phone_form-control ng-untouched ng-in_c98163""), ""9876543210"")",Chrome 126.0.0.0,,,26-07-2024 17:30:14,26-07-2024 17:30:15,1.236s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/label_Male""))",Chrome 126.0.0.0,,,26-07-2024 17:30:15,26-07-2024 17:30:16,0.668s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/input_Hobbies_checkbox1""))",Chrome 126.0.0.0,,,26-07-2024 17:30:16,26-07-2024 17:30:17,0.719s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/input_Hobbies_checkbox1""))",Chrome 126.0.0.0,,,26-07-2024 17:30:17,26-07-2024 17:30:18,0.679s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/input_Cricket_checkbox2""))",Chrome 126.0.0.0,,,26-07-2024 17:30:18,26-07-2024 17:30:18,0.660s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/div_Languages_msdd""))",Chrome 126.0.0.0,,,26-07-2024 17:30:18,26-07-2024 17:30:19,0.471s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/div_Languages_msdd""))",Chrome 126.0.0.0,,,26-07-2024 17:30:19,26-07-2024 17:30:19,0.445s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/li_English""))",Chrome 126.0.0.0,,,26-07-2024 17:30:19,26-07-2024 17:30:20,0.399s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Register1/Page_Register/select_Select Skills                       _fcf818""), ""C++"", true)",Chrome 126.0.0.0,,,26-07-2024 17:30:20,26-07-2024 17:30:22,2.743s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/span_Select Country_select2-selection selec_6e0c3c""))",Chrome 126.0.0.0,,,26-07-2024 17:30:22,26-07-2024 17:30:23,0.454s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Register1/Page_Register/select_year                             191_0e56cb""), year, true)",Chrome 126.0.0.0,,,26-07-2024 17:30:23,26-07-2024 17:30:28,4.961s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Register1/Page_Register/select_Month                               _920c21""), month, true)",Chrome 126.0.0.0,,,26-07-2024 17:30:28,26-07-2024 17:30:29,1.596s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Register1/Page_Register/select_Day                                 _6d848d""), date, true)",Chrome 126.0.0.0,,,26-07-2024 17:30:29,26-07-2024 17:30:31,1.944s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register1/Page_Register/input_Password_firstpassword""), ""3Z9vEXbPUsD5eDQOwLR1+w=="")",Chrome 126.0.0.0,,,26-07-2024 17:30:31,26-07-2024 17:30:32,0.516s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/form_Full Name                             _47f0eb""))",Chrome 126.0.0.0,,,26-07-2024 17:30:32,26-07-2024 17:30:32,0.432s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register1/Page_Register/input_Confirm Password_secondpassword""), ""3Z9vEXbPUsD5eDQOwLR1+w=="")",Chrome 126.0.0.0,,,26-07-2024 17:30:32,26-07-2024 17:30:33,0.529s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/button_Submit""))",Chrome 126.0.0.0,,,26-07-2024 17:30:33,26-07-2024 17:30:33,0.441s,PASSED
+"click(findTestObject(""Object Repository/Register1/Page_Register/button_Refresh""))",Chrome 126.0.0.0,,,26-07-2024 17:30:33,26-07-2024 17:30:35,1.597s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 17:30:35,26-07-2024 17:30:35,0.508s,PASSED
+,,,,,,,
+Test Cases/TestCase5/main,Chrome 126.0.0.0,,,26-07-2024 17:30:35,26-07-2024 17:30:46,10.652s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,26-07-2024 17:30:35,26-07-2024 17:30:37,1.165s,PASSED
+"navigateToUrl(""https://ultimateqa.com/filling-out-forms/"")",Chrome 126.0.0.0,,,26-07-2024 17:30:37,26-07-2024 17:30:39,2.197s,PASSED
+"setText(findTestObject(""Object Repository/Form2/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_0""), ""Jam"")",Chrome 126.0.0.0,,,26-07-2024 17:30:39,26-07-2024 17:30:41,2.300s,PASSED
+"setText(findTestObject(""Object Repository/Form2/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_0""), ""Butter"")",Chrome 126.0.0.0,,,26-07-2024 17:30:41,26-07-2024 17:30:44,2.609s,PASSED
+"setText(findTestObject(""Object Repository/Form2/Page_Filling Out Forms - Ultimate QA/input_Name_et_pb_contact_name_1""), ""Sam"")",Chrome 126.0.0.0,,,26-07-2024 17:30:44,26-07-2024 17:30:44,0.718s,PASSED
+"setText(findTestObject(""Object Repository/Form2/Page_Filling Out Forms - Ultimate QA/textarea_Message_et_pb_contact_message_1""), ""Gutt"")",Chrome 126.0.0.0,,,26-07-2024 17:30:44,26-07-2024 17:30:45,0.773s,PASSED
+"click(findTestObject(""Object Repository/Form2/Page_Filling Out Forms - Ultimate QA/button_Submit""))",Chrome 126.0.0.0,,,26-07-2024 17:30:45,26-07-2024 17:30:46,0.398s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-07-2024 17:30:46,26-07-2024 17:30:46,0.280s,PASSED

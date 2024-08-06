@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-3-HealthCare,,,,01-08-2024 17:43:53,01-08-2024 17:44:04,11.311s,FAILED
+,,,,,,,
+Test Cases/TC-01-Katalonhealthcare/HealthCare-Katalon,,,,01-08-2024 17:43:58,01-08-2024 17:43:59,0.981s,FAILED
+"openBrowser("""")",,,,01-08-2024 17:43:58,01-08-2024 17:43:59,0.949s,FAILED
+,,,,,,,
+Test Cases/TC-01-Katalonhealthcare/HealthCare-Apply,,,,01-08-2024 17:44:03,01-08-2024 17:44:04,1.038s,FAILED
+myCustomKeywords.login(url),,,,01-08-2024 17:44:03,01-08-2024 17:44:04,1.006s,FAILED

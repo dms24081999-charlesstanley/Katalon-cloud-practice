@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-6-expandTesting" time="42.409" tests="2" failures="0" errors="0">
+   <testsuite name="TS-6-expandTesting" tests="2" failures="0" errors="0" time="42.409" skipped="0" timestamp="02-08-2024T13:29:33" hostname="10685520 - 10.202.112.43" id="Test Suites/TS-6-expandTesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_132921\\TS-6-expandTesting\\20240802_132922"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_132921\\TS-6-expandTesting\\20240802_132922\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 10.202.112.43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="10.202.112.43"/>
+         <property name="sessionId" value="14e7435a80c768823abc486bc45d83ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-11-expandTesting-login" time="22.347" classname="Test Cases/TC-11-expandTesting-login" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:29:33 - [TEST_CASE][PASSED] - Test Cases/TC-11-expandTesting-login: Test Cases/TC-11-expandTesting-login
+
+02-08-2024T13:29:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:29:34 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-08-2024T13:29:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:29:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:29:38 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/login"): Navigate to 'https://practice.expandtesting.com/login' successfully
+
+02-08-2024T13:29:38 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/login' successfully
+
+02-08-2024T13:29:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username"), username): Text 'abc' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username'
+
+02-08-2024T13:29:43 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username'
+
+02-08-2024T13:29:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password"), password): Text '123' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password'
+
+02-08-2024T13:29:44 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password'
+
+02-08-2024T13:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login")): Object: 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login' is clicked on
+
+02-08-2024T13:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login' is clicked on
+
+02-08-2024T13:29:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid")): Object 'Object Repository/TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid' is visible
+
+02-08-2024T13:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid' is visible
+
+02-08-2024T13:29:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:29:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-13-expandTesting-bmi" time="19.741" classname="Test Cases/TC-13-expandTesting-bmi" status="PASSED">
+         <system-out><![CDATA[02-08-2024T13:29:56 - [TEST_CASE][PASSED] - Test Cases/TC-13-expandTesting-bmi: Test Cases/TC-13-expandTesting-bmi
+
+02-08-2024T13:29:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T13:29:56 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-08-2024T13:29:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T13:29:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T13:29:57 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.expandtesting.com/bmi"): Navigate to 'https://practice.expandtesting.com/bmi' successfully
+
+02-08-2024T13:30:02 - [MESSAGE][PASSED] - Navigate to 'https://practice.expandtesting.com/bmi' successfully
+
+02-08-2024T13:30:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/select_Female            Male"), "Male", true): All options with value 'Male' are selected in object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/select_Female            Male'  using regular expression
+
+02-08-2024T13:30:04 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/select_Female            Male'  using regular expression
+
+02-08-2024T13:30:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Age (ages 2 - 120)_age"), age): Text '26' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Age (ages 2 - 120)_age'
+
+02-08-2024T13:30:05 - [MESSAGE][PASSED] - Text '26' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Age (ages 2 - 120)_age'
+
+02-08-2024T13:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Height (cm)_height"), height): Text '161' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Height (cm)_height'
+
+02-08-2024T13:30:05 - [MESSAGE][PASSED] - Text '161' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Height (cm)_height'
+
+02-08-2024T13:30:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Weight (kg)_weight"), weight): Text '80' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Weight (kg)_weight'
+
+02-08-2024T13:30:06 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Weight (kg)_weight'
+
+02-08-2024T13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/button_Calculate")): Object: 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/button_Calculate' is clicked on
+
+02-08-2024T13:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/button_Calculate' is clicked on
+
+02-08-2024T13:30:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-13/Page_BMI Calculator example page for Automation Testing Practice/span_Your Body Fat is 12.4"), ans): Actual text and expected text of test object 'Object Repository/TC-13/Page_BMI Calculator example page for Automation Testing Practice/span_Your Body Fat is 12.4' are matched.
+
+02-08-2024T13:30:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-13/Page_BMI Calculator example page for Automation Testing Practice/span_Your Body Fat is 12.4' are matched.
+
+02-08-2024T13:30:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T13:30:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T13:29:33 - [TEST_SUITE][PASSED] - TS-6-expandTesting: Test Cases/TC-13-expandTesting-bmi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

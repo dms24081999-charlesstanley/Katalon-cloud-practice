@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-10-globalsqa-2,Chrome 127.0.0.0,,,02-08-2024 14:11:29,02-08-2024 14:11:35,6.712s,PASSED
+,,,,,,,
+Test Cases/TC-26-globalsqa-calc,Chrome 127.0.0.0,,"calculator,addition",02-08-2024 14:11:29,02-08-2024 14:11:35,6.462s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 14:11:29,02-08-2024 14:11:31,2.253s,PASSED
+"navigateToUrl(""https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/"")",Chrome 127.0.0.0,,,02-08-2024 14:11:31,02-08-2024 14:11:33,1.256s,PASSED
+"click(findTestObject(""Object Repository/TC-26/Page_/input_a_ng-pristine ng-valid""))",Chrome 127.0.0.0,,,02-08-2024 14:11:33,02-08-2024 14:11:33,0.569s,PASSED
+"setText(findTestObject(""Object Repository/TC-26/Page_/input_a_ng-valid ng-dirty""), ""8"")",Chrome 127.0.0.0,,,02-08-2024 14:11:33,02-08-2024 14:11:34,0.782s,PASSED
+"setText(findTestObject(""Object Repository/TC-26/Page_/input_b_ng-valid ng-dirty""), ""2"")",Chrome 127.0.0.0,,,02-08-2024 14:11:34,02-08-2024 14:11:35,0.700s,PASSED
+"verifyElementText(findTestObject(""TC-26/Page_/b_8  2  10""), ""8 + 2 = 10"")",Chrome 127.0.0.0,,,02-08-2024 14:11:35,02-08-2024 14:11:35,0.340s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 14:11:35,02-08-2024 14:11:35,0.221s,PASSED
+,,,,,,,
+Test Cases/TC-27-globalsqa-consumption,Chrome 127.0.0.0,,,02-08-2024 14:11:35,02-08-2024 14:11:35,0.058s,PASSED
+return null,Chrome 127.0.0.0,,,02-08-2024 14:11:35,02-08-2024 14:11:35,0.001s,PASSED

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-52-vbsca</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af4b57e0-dd04-4e60-a2e0-452c2431d26a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5d473505-31b3-40dc-9595-d6ac0b5b8479</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC-2-saucedemo</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ba2d1493-050d-4d30-be8d-c26aa4c5cb2f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TC-52</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ba2d1493-050d-4d30-be8d-c26aa4c5cb2f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>login_user</value>
+      <variableId>0deb2a18-8791-4ec1-a7b1-12d48efcd403</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ba2d1493-050d-4d30-be8d-c26aa4c5cb2f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>login_pass</value>
+      <variableId>7ef55d2b-e696-4b3a-9e8c-4e9ccc71b2f7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0deb2a18-8791-4ec1-a7b1-12d48efcd403</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ef55d2b-e696-4b3a-9e8c-4e9ccc71b2f7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

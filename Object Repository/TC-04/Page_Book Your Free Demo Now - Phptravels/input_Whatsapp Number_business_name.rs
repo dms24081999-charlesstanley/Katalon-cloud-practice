@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Whatsapp Number_business_name</name>
+   <tag></tag>
+   <elementGuidId>36c2fda0-7384-4dfd-9360-f26bd6f96fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;business_name&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='business_name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Business Name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>72978fc5-eeec-477a-a32e-967fbb23d24e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>business_name</value>
+      <webElementGuid>cc6d6f4d-b059-4d67-9e6f-3c40c183eb9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>70282055-18ba-4568-8cee-d60d21c0eef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>company_name form-control</value>
+      <webElementGuid>1b8b8fae-6da9-4fd5-8ed9-0b3670d65748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Business Name</value>
+      <webElementGuid>eda39262-d4f0-460c-a6c9-36ef2e609e42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swup&quot;)/section[@class=&quot;grey-box mt1&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-lg-6&quot;]/div[@class=&quot;demo_form bgb br8 p3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;border rounded-4 p-3 p-md-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 form-group&quot;]/div[1]/div[@class=&quot;form from_box&quot;]/div[@class=&quot;form-floating mb-3&quot;]/input[@class=&quot;company_name form-control&quot;]</value>
+      <webElementGuid>051665a7-599d-492a-a906-99a4fcf5ada0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='business_name']</value>
+      <webElementGuid>b8e45268-5c46-4f70-8637-9aab0f877076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='swup']/section/div/div/div/div/div/div/div/div/div/div/div/div[3]/input</value>
+      <webElementGuid>d185b4aa-ffbb-45b9-9bb4-5dc660dc8cb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+      <webElementGuid>ac2c19e9-61e2-466e-ab86-26f92b9044e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'business_name' and @type = 'text' and @placeholder = 'Business Name']</value>
+      <webElementGuid>54615194-894b-4dc9-a0ca-ec01bd6872f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC-4" time="56.995" tests="4" failures="0" errors="0">
+   <testsuite name="TS-9-globalsqa-1" tests="2" failures="0" errors="0" time="28.642" skipped="0" timestamp="02-08-2024T14:16:18" hostname="10685520 - 10.202.112.43" id="Test Suites/TS-9-globalsqa-1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_141605\\TS-9-globalsqa-1\\20240802_141606"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_141605\\TS-9-globalsqa-1\\20240802_141606\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 10.202.112.43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="10.202.112.43"/>
+         <property name="sessionId" value="8749df2fa9ecbd2c8040659cc8a6b52f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-24-globalsqa-banking" time="10.646" classname="Test Cases/TC-24-globalsqa-banking" status="PASSED">
+         <system-out><![CDATA[02-08-2024T14:16:18 - [TEST_CASE][PASSED] - Test Cases/TC-24-globalsqa-banking: Test Cases/TC-24-globalsqa-banking
+
+02-08-2024T14:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T14:16:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-08-2024T14:16:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T14:16:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T14:16:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+02-08-2024T14:16:23 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login' successfully
+
+02-08-2024T14:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-24/Page_XYZ Bank/button_Customer Login")): Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Customer Login' is clicked on
+
+02-08-2024T14:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Customer Login' is clicked on
+
+02-08-2024T14:16:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC-24/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b"), "1", true): All options with value '1' are selected in object 'Object Repository/TC-24/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+02-08-2024T14:16:26 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/TC-24/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+02-08-2024T14:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-24/Page_XYZ Bank/button_Login")): Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Login' is clicked on
+
+02-08-2024T14:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Login' is clicked on
+
+02-08-2024T14:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-24/Page_XYZ Bank/button_Transactions")): Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Transactions' is clicked on
+
+02-08-2024T14:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Transactions' is clicked on
+
+02-08-2024T14:16:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC-24/Page_XYZ Bank/td_30"), "30"): Actual text and expected text of test object 'Object Repository/TC-24/Page_XYZ Bank/td_30' are matched.
+
+02-08-2024T14:16:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-24/Page_XYZ Bank/td_30' are matched.
+
+02-08-2024T14:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-24/Page_XYZ Bank/button_Logout")): Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Logout' is clicked on
+
+02-08-2024T14:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-24/Page_XYZ Bank/button_Logout' is clicked on
+
+02-08-2024T14:16:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T14:16:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-25-globalsqa-samplepagetest" time="17.802" classname="Test Cases/TC-25-globalsqa-samplepagetest" status="PASSED">
+         <system-out><![CDATA[02-08-2024T14:16:29 - [TEST_CASE][PASSED] - Test Cases/TC-25-globalsqa-samplepagetest: Test Cases/TC-25-globalsqa-samplepagetest
+
+02-08-2024T14:16:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T14:16:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+02-08-2024T14:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T14:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T14:16:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/samplepagetest/"): Navigate to 'https://www.globalsqa.com/samplepagetest/' successfully
+
+02-08-2024T14:16:37 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/samplepagetest/' successfully
+
+02-08-2024T14:16:37 - [TEST_STEP][PASSED] - namedata = sample1.enterdata("name"): null
+
+02-08-2024T14:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-name"), namedata): Text 'dom' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-name'
+
+02-08-2024T14:16:38 - [MESSAGE][PASSED] - Text 'dom' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-name'
+
+02-08-2024T14:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-email"), "sil@as.com"): Text 'sil@as.com' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-email'
+
+02-08-2024T14:16:39 - [MESSAGE][PASSED] - Text 'sil@as.com' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_(required)_g2599-email'
+
+02-08-2024T14:16:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/select_0-11-33-55-77-1010"), "1-3", true): All options with value '1-3' are selected in object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/select_0-11-33-55-77-1010'  using regular expression
+
+02-08-2024T14:16:40 - [MESSAGE][PASSED] - All options with value '1-3' are selected in object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/select_0-11-33-55-77-1010'  using regular expression
+
+02-08-2024T14:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise")): Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise' is clicked on
+
+02-08-2024T14:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise' is clicked on
+
+02-08-2024T14:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise")): Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise' is clicked on
+
+02-08-2024T14:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/input_Automation Testing_g2599-expertise' is clicked on
+
+02-08-2024T14:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/label_Graduate")): Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/label_Graduate' is clicked on
+
+02-08-2024T14:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/label_Graduate' is clicked on
+
+02-08-2024T14:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Alert Box  Click Here")): Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Alert Box  Click Here' is clicked on
+
+02-08-2024T14:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Alert Box  Click Here' is clicked on
+
+02-08-2024T14:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment"), "hello"): Text 'hello' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment'
+
+02-08-2024T14:16:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment'. Try using Self-healing.
+
+02-08-2024T14:16:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment' was broken. Propose an alternative one: '//textarea[@id='contact-form-comment-g2599-comment']'.
+
+02-08-2024T14:16:42 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/textarea_(required)_g2599-comment'
+
+02-08-2024T14:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Submit")): Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Submit' is clicked on
+
+02-08-2024T14:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-25/Page_Sample Page Test - GlobalSQA/button_Submit' is clicked on
+
+02-08-2024T14:16:46 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+02-08-2024T14:16:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T14:16:18 - [TEST_SUITE][PASSED] - TS-9-globalsqa-1: Test Cases/TC-25-globalsqa-samplepagetest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS-10-globalsqa-2" tests="2" failures="0" errors="0" time="6.396" skipped="0" timestamp="02-08-2024T14:16:58" hostname="10685520 - 10.202.112.43" id="Test Suites/TS-10-globalsqa-2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_141605\\TS-10-globalsqa-2\\20240802_141608"/>
+         <property name="logFiles" value="C:\\Users\\10685520\\OneDrive - LTIMindtree\\KT\\Katalon Studio\\SampleWebTest1\\Reports\\20240802_141605\\TS-10-globalsqa-2\\20240802_141608\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="10685520 - 10.202.112.43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="10.202.112.43"/>
+         <property name="sessionId" value="5ef52dff7094d4f2917b0202d70dd385"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-26-globalsqa-calc" time="6.138" classname="Test Cases/TC-26-globalsqa-calc" status="PASSED">
+         <system-out><![CDATA[02-08-2024T14:16:58 - [TEST_CASE][PASSED] - Test Cases/TC-26-globalsqa-calc: Test Cases/TC-26-globalsqa-calc
+
+02-08-2024T14:16:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T14:16:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T14:16:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T14:17:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T14:17:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/' successfully
+
+02-08-2024T14:17:02 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/SimpleCalculator/' successfully
+
+02-08-2024T14:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-26/Page_/input_a_ng-pristine ng-valid")): Object: 'Object Repository/TC-26/Page_/input_a_ng-pristine ng-valid' is clicked on
+
+02-08-2024T14:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-26/Page_/input_a_ng-pristine ng-valid' is clicked on
+
+02-08-2024T14:17:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-26/Page_/input_a_ng-valid ng-dirty"), "8"): Text '8' is set on object 'Object Repository/TC-26/Page_/input_a_ng-valid ng-dirty'
+
+02-08-2024T14:17:03 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/TC-26/Page_/input_a_ng-valid ng-dirty'
+
+02-08-2024T14:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-26/Page_/input_b_ng-valid ng-dirty"), "2"): Text '2' is set on object 'Object Repository/TC-26/Page_/input_b_ng-valid ng-dirty'
+
+02-08-2024T14:17:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TC-26/Page_/input_b_ng-valid ng-dirty'
+
+02-08-2024T14:17:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC-26/Page_/b_8  2  10"), "8 + 2 = 10"): Actual text and expected text of test object 'Object Repository/TC-26/Page_/b_8  2  10' are matched.
+
+02-08-2024T14:17:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC-26/Page_/b_8  2  10' are matched.
+
+02-08-2024T14:17:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-08-2024T14:17:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-27-globalsqa-consumption" time="0.073" classname="Test Cases/TC-27-globalsqa-consumption" status="PASSED">
+         <system-out><![CDATA[02-08-2024T14:17:04 - [TEST_CASE][PASSED] - Test Cases/TC-27-globalsqa-consumption: Test Cases/TC-27-globalsqa-consumption
+
+02-08-2024T14:17:04 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T14:16:58 - [TEST_SUITE][PASSED] - TS-10-globalsqa-2: Test Cases/TC-27-globalsqa-consumption]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

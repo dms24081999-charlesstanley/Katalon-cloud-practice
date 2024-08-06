@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-15-expandTesting-calorie</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>94c4ad83-b46c-4477-a9bf-518594035061</testCaseGuid>
+</TestCaseEntity>

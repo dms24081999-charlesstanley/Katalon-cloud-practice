@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-34-theInternet-add-del-elem-AI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12f27e8f-f929-4bc2-909a-763d145dbf1b</testCaseGuid>
+</TestCaseEntity>

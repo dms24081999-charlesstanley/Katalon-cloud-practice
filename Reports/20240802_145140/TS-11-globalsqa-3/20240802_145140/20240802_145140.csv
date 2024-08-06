@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-11-globalsqa-3,Chrome 127.0.0.0,,,02-08-2024 14:51:48,02-08-2024 14:52:03,15.831s,PASSED
+,,,,,,,
+Test Cases/TC-28-globalsqa-register,Chrome 127.0.0.0,,,02-08-2024 14:51:48,02-08-2024 14:51:56,8.308s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 14:51:48,02-08-2024 14:51:50,2.227s,PASSED
+"navigateToUrl(""https://globalsqa.com/angularJs-protractor/registration-login-example/#/register"")",Chrome 127.0.0.0,,,02-08-2024 14:51:50,02-08-2024 14:51:52,2.111s,PASSED
+"setText(findTestObject(""Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_First name_firstName""), ""Dom"")",Chrome 127.0.0.0,,,02-08-2024 14:51:52,02-08-2024 14:51:54,1.289s,PASSED
+"setText(findTestObject(""Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Last name_lastName""), ""Sil"")",Chrome 127.0.0.0,,,02-08-2024 14:51:54,02-08-2024 14:51:54,0.720s,PASSED
+"setText(findTestObject(""Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Username_username""), ""dsil"")",Chrome 127.0.0.0,,,02-08-2024 14:51:54,02-08-2024 14:51:55,0.602s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-28/Page_AngularJS User Registration and Login Example/input_Password_password""), ""0k9G2X5i1stHXDYZerjoew=="")",Chrome 127.0.0.0,,,02-08-2024 14:51:55,02-08-2024 14:51:55,0.412s,PASSED
+"click(findTestObject(""Object Repository/TC-28/Page_AngularJS User Registration and Login Example/button_Register""))",Chrome 127.0.0.0,,,02-08-2024 14:51:55,02-08-2024 14:51:56,0.387s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 14:51:56,02-08-2024 14:51:56,0.224s,PASSED
+,,,,,,,
+Test Cases/TC-29-globalsqa-login,Chrome 127.0.0.0,,,02-08-2024 14:51:56,02-08-2024 14:52:03,7.337s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 14:51:56,02-08-2024 14:51:57,1.121s,PASSED
+"navigateToUrl(""https://globalsqa.com/angularJs-protractor/registration-login-example/#/login"")",Chrome 127.0.0.0,,,02-08-2024 14:51:57,02-08-2024 14:51:59,1.862s,PASSED
+"setText(findTestObject(""Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Username_username""), ""dom"")",Chrome 127.0.0.0,,,02-08-2024 14:51:59,02-08-2024 14:52:00,1.263s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC-29/Page_AngularJS User Registration and Login Example/input_Password_password""), ""l95YM5zx+C4="")",Chrome 127.0.0.0,,,02-08-2024 14:52:00,02-08-2024 14:52:01,0.379s,PASSED
+"click(findTestObject(""Object Repository/TC-29/Page_AngularJS User Registration and Login Example/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 14:52:01,02-08-2024 14:52:01,0.319s,PASSED
+delay(2),Chrome 127.0.0.0,,,02-08-2024 14:52:01,02-08-2024 14:52:03,2.043s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 14:52:03,02-08-2024 14:52:03,0.244s,PASSED

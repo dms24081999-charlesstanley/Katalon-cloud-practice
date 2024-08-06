@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Yes  No  Undecided</name>
+   <tag></tag>
+   <elementGuidId>06e2b2b2-b1c4-48e9-b6a2-83d320d28ec3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='automation']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#automation</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;automation&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b9f40655-9733-40f3-a860-6e593d204bb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>automation</value>
+      <webElementGuid>c652506a-c6f7-42be-ac2a-6d3542a6dade</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>automation</value>
+      <webElementGuid>8a03c130-68b5-4be3-940c-faacda3c3e85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-cy</name>
+      <type>Main</type>
+      <value>automation</value>
+      <webElementGuid>cb961e25-4f85-49e6-9f25-ed2fe1b75c1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>automation</value>
+      <webElementGuid>d27d0d40-6299-45d9-9e7b-41e3c32cc4e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+  
+  Yes
+  No
+  Undecided
+</value>
+      <webElementGuid>02f198f4-4d76-4ca2-820a-b45d6ecbe482</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;automation&quot;)</value>
+      <webElementGuid>9c199f25-21dd-47b0-bd3a-bf90320fcef1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='automation']</value>
+      <webElementGuid>2af9e51d-343c-44ec-acc3-1242f0cf57d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='feedbackForm']/select</value>
+      <webElementGuid>fb81a5e2-7e9e-47d1-b96b-c7af09f52e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you like automation?'])[1]/following::select[1]</value>
+      <webElementGuid>3a5160d9-33e8-4eba-a8ec-ef4ac0e13a32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#FFC0CB'])[1]/following::select[1]</value>
+      <webElementGuid>9005c98f-941d-4d3f-8ae9-ef05dfdae20a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation tools'])[1]/preceding::select[1]</value>
+      <webElementGuid>f0979a3c-e838-4a5c-8d15-e67ff18ac815</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selenium'])[1]/preceding::select[1]</value>
+      <webElementGuid>7d430330-a860-4ed2-b7b2-9d2c7cf4637b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d8859cf9-e3b6-454e-b2ef-8dcf98ab011a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'automation' and @id = 'automation' and (text() = '
+  
+  Yes
+  No
+  Undecided
+' or . = '
+  
+  Yes
+  No
+  Undecided
+')]</value>
+      <webElementGuid>9af67779-ef72-40ea-a501-67037b89af91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

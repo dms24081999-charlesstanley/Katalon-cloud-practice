@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Select Country_whatsapp</name>
+   <tag></tag>
+   <elementGuidId>f8363c08-7e08-45ad-b9ab-df08b6005e37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='whatsapp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;whatsapp&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot; &quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ba314faa-151e-4502-983a-65eaac067860</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>whatsapp</value>
+      <webElementGuid>27aadb52-18ba-495c-a399-e9fbc874896f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>whatsapp_number form-control</value>
+      <webElementGuid>3bf4e546-c137-4155-bb29-fc8605feefce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swup&quot;)/section[@class=&quot;grey-box mt1&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-lg-6&quot;]/div[@class=&quot;demo_form bgb br8 p3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;border rounded-4 p-3 p-md-4&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 form-group&quot;]/div[1]/div[@class=&quot;form from_box&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-floating&quot;]/input[@class=&quot;whatsapp_number form-control&quot;]</value>
+      <webElementGuid>e6b17422-a181-498f-bb56-076152c36042</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='whatsapp']</value>
+      <webElementGuid>0403894f-2e8c-4718-ac68-0215276bc6f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='swup']/section/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[2]/div/input</value>
+      <webElementGuid>3e7158f0-598f-48de-9ede-53f23e864fe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/input</value>
+      <webElementGuid>25b501d1-723e-4ab7-a782-9f3cd9b4ff08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'whatsapp']</value>
+      <webElementGuid>7100de90-e3b2-4eb8-98d8-d6273809a7c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

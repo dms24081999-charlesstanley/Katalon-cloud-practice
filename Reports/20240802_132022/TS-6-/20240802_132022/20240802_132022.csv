@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-6-,Chrome 127.0.0.0,,,02-08-2024 13:20:29,02-08-2024 13:21:14,45.144s,PASSED
+,,,,,,,
+Test Cases/TC-11-expandTesting-login,Chrome 127.0.0.0,,,02-08-2024 13:20:29,02-08-2024 13:20:50,20.960s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:20:30,02-08-2024 13:20:32,2.401s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/login"")",Chrome 127.0.0.0,,,02-08-2024 13:20:32,02-08-2024 13:20:34,2.101s,PASSED
+"setText(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Username_username""), username)",Chrome 127.0.0.0,,,02-08-2024 13:20:34,02-08-2024 13:20:36,2.192s,PASSED
+"setText(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/input_Password_password""), password)",Chrome 127.0.0.0,,,02-08-2024 13:20:36,02-08-2024 13:20:37,0.663s,PASSED
+"click(findTestObject(""Object Repository/TC-11/Page_Login form page for Automation Testing_eea870/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 13:20:37,02-08-2024 13:20:49,11.705s,PASSED
+"verifyElementVisible(findTestObject(""TC-11/Page_Login form page for Automation Testing Practice/b_Your username is invalid""))",Chrome 127.0.0.0,,,02-08-2024 13:20:49,02-08-2024 13:20:50,1.294s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:20:50,02-08-2024 13:20:50,0.297s,PASSED
+,,,,,,,
+Test Cases/TC-13-expandTesting-bmi,Chrome 127.0.0.0,,,02-08-2024 13:20:50,02-08-2024 13:21:14,23.961s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 13:20:50,02-08-2024 13:20:51,0.980s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/bmi"")",Chrome 127.0.0.0,,,02-08-2024 13:20:51,02-08-2024 13:20:54,2.991s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/select_Female            Male""), ""Male"", true)",Chrome 127.0.0.0,,,02-08-2024 13:20:54,02-08-2024 13:20:56,1.947s,PASSED
+"setText(findTestObject(""Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Age (ages 2 - 120)_age""), age)",Chrome 127.0.0.0,,,02-08-2024 13:20:56,02-08-2024 13:20:57,0.613s,PASSED
+"setText(findTestObject(""Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Height (cm)_height""), height)",Chrome 127.0.0.0,,,02-08-2024 13:20:57,02-08-2024 13:20:58,0.670s,PASSED
+"setText(findTestObject(""Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/input_Weight (kg)_weight""), weight)",Chrome 127.0.0.0,,,02-08-2024 13:20:58,02-08-2024 13:20:58,0.663s,PASSED
+"click(findTestObject(""Object Repository/TC-13/Page_BMI Calculator example page for Automa_921d2f/button_Calculate""))",Chrome 127.0.0.0,,,02-08-2024 13:20:58,02-08-2024 13:21:13,15.122s,PASSED
+"verifyElementText(findTestObject(""TC-13/Page_BMI Calculator example page for Automation Testing Practice/span_Your Body Fat is 12.4""), ans)",Chrome 127.0.0.0,,,02-08-2024 13:21:13,02-08-2024 13:21:14,0.537s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,02-08-2024 13:21:14,02-08-2024 13:21:14,0.236s,PASSED

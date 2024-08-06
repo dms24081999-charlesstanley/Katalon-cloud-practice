@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-20-demoblaze</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fda0795-0e4e-47b4-9a43-2a8f4eeb1e66</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f485a08e-93ba-4860-b72e-feb7b1b77469</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Iphone 6 32gb'</defaultValue>
+      <description></description>
+      <id>f485a08e-93ba-4860-b72e-feb7b1b77469</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>

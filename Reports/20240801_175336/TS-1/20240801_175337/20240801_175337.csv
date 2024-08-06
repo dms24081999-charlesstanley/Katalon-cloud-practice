@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-1,Chrome 127.0.0.0,,,01-08-2024 17:53:47,01-08-2024 17:54:07,19.981s,PASSED
+,,,,,,,
+Test Cases/TC-14-expandTesting-pass,Chrome 127.0.0.0,,,01-08-2024 17:53:48,01-08-2024 17:53:57,9.490s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:53:48,01-08-2024 17:53:50,2.415s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/secure-password-checker"")",Chrome 127.0.0.0,,,01-08-2024 17:53:50,01-08-2024 17:53:54,3.566s,PASSED
+"setText(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/input_Password_password""), ""Dsil12Dsil"")",Chrome 127.0.0.0,,,01-08-2024 17:53:54,01-08-2024 17:53:56,1.716s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must be at least 8 characters long""))",Chrome 127.0.0.0,,,01-08-2024 17:53:56,01-08-2024 17:53:56,0.328s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a lowercase letter""))",Chrome 127.0.0.0,,,01-08-2024 17:53:56,01-08-2024 17:53:56,0.288s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain a number or special character""))",Chrome 127.0.0.0,,,01-08-2024 17:53:56,01-08-2024 17:53:57,0.321s,PASSED
+"verifyElementNotVisible(findTestObject(""TC-14/Page_Secure Password Checker page for Automation Testing Practice/li_Must contain an uppercase letter""))",Chrome 127.0.0.0,,,01-08-2024 17:53:57,01-08-2024 17:53:57,0.285s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:53:57,01-08-2024 17:53:57,0.267s,PASSED
+,,,,,,,
+Test Cases/TC-15-expandTesting-calorie,Chrome 127.0.0.0,,,01-08-2024 17:53:57,01-08-2024 17:54:07,10.287s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,01-08-2024 17:53:57,01-08-2024 17:53:58,1.097s,PASSED
+"navigateToUrl(""https://practice.expandtesting.com/tracalorie/"")",Chrome 127.0.0.0,,,01-08-2024 17:53:58,01-08-2024 17:54:02,3.400s,PASSED
+"setText(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name""), ""Mango"")",Chrome 127.0.0.0,,,01-08-2024 17:54:02,01-08-2024 17:54:04,2.006s,PASSED
+"setText(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories""), ""4"")",Chrome 127.0.0.0,,,01-08-2024 17:54:04,01-08-2024 17:54:04,0.669s,PASSED
+"click(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal""))",Chrome 127.0.0.0,,,01-08-2024 17:54:04,01-08-2024 17:54:05,0.374s,PASSED
+"setText(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Meal_item-name""), ""Chicken"")",Chrome 127.0.0.0,,,01-08-2024 17:54:05,01-08-2024 17:54:06,0.901s,PASSED
+"setText(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/input_Calories_item-calories""), ""24"")",Chrome 127.0.0.0,,,01-08-2024 17:54:06,01-08-2024 17:54:06,0.617s,PASSED
+"click(findTestObject(""Object Repository/TC-15/Page_Tracalorie  Meal  Calorie Tracker Auto_c8671a/button_Add Meal""))",Chrome 127.0.0.0,,,01-08-2024 17:54:06,01-08-2024 17:54:07,0.349s,PASSED
+"verifyElementText(findTestObject(""TC-15/Page_Tracalorie  Meal  Calorie Tracker Automation Testing Practice/span_0""), ""28"")",Chrome 127.0.0.0,,,01-08-2024 17:54:07,01-08-2024 17:54:07,0.538s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,01-08-2024 17:54:07,01-08-2024 17:54:07,0.209s,PASSED

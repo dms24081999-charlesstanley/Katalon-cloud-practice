@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-30-globalsqa-bankmanager</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19565398-14df-40e7-b0db-4fa1b165fd80</testCaseGuid>
+</TestCaseEntity>

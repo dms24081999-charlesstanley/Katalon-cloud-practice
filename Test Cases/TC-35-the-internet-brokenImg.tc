@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-35-the-internet-brokenImg</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf14bdf0-0fbc-4fb0-8a53-2c1ecc144961</testCaseGuid>
+</TestCaseEntity>

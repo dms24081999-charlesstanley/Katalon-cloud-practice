@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>summary_Click to see more</name>
+   <tag></tag>
+   <elementGuidId>e75ba5bb-2a20-4f14-8cfb-6b5044e83cf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-1261']/div/div/div/details/summary</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>summary.wp-block-coblocks-accordion-item__title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Click to see more&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>summary</value>
+      <webElementGuid>db0d0caf-ce85-4cc7-9ae4-518af1a4ce7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wp-block-coblocks-accordion-item__title</value>
+      <webElementGuid>c29e2f34-25e5-44c7-9b6f-65adc63bae51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to see more</value>
+      <webElementGuid>3058daa8-857a-445b-84c7-777742081dcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-1261&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;wp-block-coblocks-accordion&quot;]/div[@class=&quot;wp-block-coblocks-accordion-item&quot;]/details[1]/summary[@class=&quot;wp-block-coblocks-accordion-item__title&quot;]</value>
+      <webElementGuid>31ea8246-2c0a-47b7-a159-e78e189bb60d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-1261']/div/div/div/details/summary</value>
+      <webElementGuid>52b93856-2d46-429a-a9e6-c2d08b23549b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accordions'])[2]/following::summary[1]</value>
+      <webElementGuid>809d0b49-ea81-498d-bc98-e833997a788c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::summary[1]</value>
+      <webElementGuid>fd63e1da-7864-4f70-803f-675145ae72c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn More'])[1]/preceding::summary[1]</value>
+      <webElementGuid>1be75a52-5d61-4c45-ada2-5eabf2352688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::summary[1]</value>
+      <webElementGuid>cb5cb53d-6772-4fc0-9190-d3f70a369186</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click to see more']/parent::*</value>
+      <webElementGuid>3e3db006-de58-429a-949f-d0dd11288135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//summary</value>
+      <webElementGuid>258bb2e5-f35d-44d1-8f60-d9c69d9ab609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//summary[(text() = 'Click to see more' or . = 'Click to see more')]</value>
+      <webElementGuid>f3859ad6-c81c-4d87-9917-6f7edd6c6993</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
