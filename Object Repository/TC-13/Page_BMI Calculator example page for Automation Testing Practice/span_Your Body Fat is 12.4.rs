@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Your Body Fat is 12.4</name>
+   <tag></tag>
+   <elementGuidId>fdfa3568-437c-48e0-926f-81edcd1bfe31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='bfat']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#bfat</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your Body Fat is 12.4&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4d3b2432-ee9c-4765-994b-2d618ffed96b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>bfat</value>
+      <webElementGuid>f18e5f62-20d2-48a9-b78b-680c1f52099d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Body Fat is 12.4</value>
+      <webElementGuid>d99b2b71-b243-4ade-9e9e-d9615d8d7f7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bfat&quot;)</value>
+      <webElementGuid>321e1e94-49a8-4907-a089-069e641a2511</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='bfat']</value>
+      <webElementGuid>26e80317-7353-48cb-8901-646661336a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divResult']/p[3]/span</value>
+      <webElementGuid>9d172158-b806-4ce2-8e44-57a8b5d7f0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your BMI is 19.4 kg/m2 (Normal)'])[1]/following::span[1]</value>
+      <webElementGuid>62f450af-eee9-4ee0-b71d-9b239e40825a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Female, 35 (yr), 190 (cm), 70 (kg)'])[1]/following::span[3]</value>
+      <webElementGuid>c8e21364-2959-46c5-9580-46b3763bdf05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Underweight'])[1]/preceding::span[1]</value>
+      <webElementGuid>606451cd-af01-4a37-9e6c-847049faf3a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Normal'])[1]/preceding::span[1]</value>
+      <webElementGuid>40da6aca-b9eb-435b-9467-8a708f31b979</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your Body Fat is 12.4']/parent::*</value>
+      <webElementGuid>b7ed9c1b-c4e3-4928-bd16-dd190bfc4547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]/span</value>
+      <webElementGuid>25c9298d-e3be-4be5-a554-cb389f83eb48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'bfat' and (text() = 'Your Body Fat is 12.4' or . = 'Your Body Fat is 12.4')]</value>
+      <webElementGuid>384d5d4d-7745-49af-ad36-2afc34ff8622</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

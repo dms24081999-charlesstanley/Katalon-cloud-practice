@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_English</name>
+   <tag></tag>
+   <elementGuidId>1748d1a0-7b58-448d-8fa9-429d6df08637</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.ng-scope.ui-elemfocus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;English&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>167934d7-92a7-43fe-b9af-ceda6f649a3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-scope ui-elemfocus</value>
+      <webElementGuid>4e2fa5b6-6cb7-4136-931c-72d106e98bde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> English </value>
+      <webElementGuid>744601bc-1f64-48b8-aa92-39d82656bd96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basicBootstrapForm&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-4 col-xs-4 col-sm-4&quot;]/multi-select[1]/div[2]/ul[@class=&quot;ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all&quot;]/li[@class=&quot;ng-scope ui-elemfocus&quot;]</value>
+      <webElementGuid>d8ce5463-5029-4345-8da3-f1ac7a441846</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul/li[8]</value>
+      <webElementGuid>f42f3966-7791-44ae-87f2-206fcff9da00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dutch'])[1]/following::li[1]</value>
+      <webElementGuid>34506327-ff56-4d90-8b41-e8beb2babbf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danish'])[1]/following::li[2]</value>
+      <webElementGuid>d6adca10-5c8b-417e-8798-25d0142abb56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estonian'])[1]/preceding::li[1]</value>
+      <webElementGuid>8c35fc98-b139-4757-9a2c-31e9b7a3bf26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//multi-select/div[2]/ul/li[8]</value>
+      <webElementGuid>1c993fb7-702d-4e47-ab46-bea72e3308b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' English ' or . = ' English ')]</value>
+      <webElementGuid>f1a91389-56e7-4869-a6e2-ac58592fbe34</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

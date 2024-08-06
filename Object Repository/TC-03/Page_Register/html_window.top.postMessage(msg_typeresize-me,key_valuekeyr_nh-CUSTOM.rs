@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>html_window.top.postMessage(msg_typeresize-me,key_valuekeyr_nh,value0,keyr_ifr,valuetrue,keyqid,valueCLLHpPurv4cDFeFHnQkd7rcJeg,googMsgTypesth, )window.top.postMessage(msg_typeadsense-labs,key_valuekeysettings,valueca-pu</name>
+   <tag></tag>
+   <elementGuidId>07a13617-0f5d-4bce-a4a8-a335efe2f23e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//html</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>html</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>html</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>html</value>
+      <webElementGuid>155ca185-2795-431c-9524-2a4846e744d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>window.top.postMessage('{&quot;msg_type&quot;:&quot;resize-me&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;r_nh&quot;,&quot;value&quot;:&quot;0&quot;},{&quot;key&quot;:&quot;r_ifr&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;qid&quot;,&quot;value&quot;:&quot;CLLHpPurv4cDFeFHnQkd7rcJeg&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}', '*');window.top.postMessage('{&quot;msg_type&quot;:&quot;adsense-labs&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;settings&quot;,&quot;value&quot;:&quot;[\\\&quot;ca-pub-9173866185064071\\\&quot;,[[1]],null,[[\\\&quot;ID=16823885b5a99304:T=1721812650:RT=1721812650:S=ALNI_MZJc8n_nJlHEKF2BV3bkisZO0KixA\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,1],[\\\&quot;UID=00000ea413c0e9f9:T=1721812650:RT=1721812650:S=ALNI_MYSzU-H3L4YnhOgO8LfJmv7BYGjnw\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,2]],[\\\&quot;ID=9c9d051c573d2cc8:T=1721812650:RT=1721812650:S=AA-AfjbF0MO2x3wHwyxz1amrpZ9G\\\&quot;,1737364650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;]]&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}', '*');#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon katalon-div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} katalon-div#katalon-spy_elementInfoDiv {color: lightblue; padding: 0px 5px 5px} katalon-div#katalon-spy_instructionDiv {padding: 5px 5px 2.5px}/html[1]</value>
+      <webElementGuid>aa32d7c6-c4d7-436a-9296-72d6283240de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]</value>
+      <webElementGuid>a1297947-dd84-41ba-a6d2-5945c84ec44d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC-03/Page_Register/iframe_Register_aswift_0</value>
+      <webElementGuid>bde236c7-7984-49be-8ce9-77b8fa0eb64f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//html</value>
+      <webElementGuid>506964d6-8488-4fff-931f-667f50bc9940</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//html[(text() = concat(&quot;window.top.postMessage(&quot; , &quot;'&quot; , &quot;{&quot;msg_type&quot;:&quot;resize-me&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;r_nh&quot;,&quot;value&quot;:&quot;0&quot;},{&quot;key&quot;:&quot;r_ifr&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;qid&quot;,&quot;value&quot;:&quot;CLLHpPurv4cDFeFHnQkd7rcJeg&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;*&quot; , &quot;'&quot; , &quot;);window.top.postMessage(&quot; , &quot;'&quot; , &quot;{&quot;msg_type&quot;:&quot;adsense-labs&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;settings&quot;,&quot;value&quot;:&quot;[\\\&quot;ca-pub-9173866185064071\\\&quot;,[[1]],null,[[\\\&quot;ID=16823885b5a99304:T=1721812650:RT=1721812650:S=ALNI_MZJc8n_nJlHEKF2BV3bkisZO0KixA\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,1],[\\\&quot;UID=00000ea413c0e9f9:T=1721812650:RT=1721812650:S=ALNI_MYSzU-H3L4YnhOgO8LfJmv7BYGjnw\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,2]],[\\\&quot;ID=9c9d051c573d2cc8:T=1721812650:RT=1721812650:S=AA-AfjbF0MO2x3wHwyxz1amrpZ9G\\\&quot;,1737364650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;]]&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;*&quot; , &quot;'&quot; , &quot;);#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon katalon-div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} katalon-div#katalon-spy_elementInfoDiv {color: lightblue; padding: 0px 5px 5px} katalon-div#katalon-spy_instructionDiv {padding: 5px 5px 2.5px}/html[1]&quot;) or . = concat(&quot;window.top.postMessage(&quot; , &quot;'&quot; , &quot;{&quot;msg_type&quot;:&quot;resize-me&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;r_nh&quot;,&quot;value&quot;:&quot;0&quot;},{&quot;key&quot;:&quot;r_ifr&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;qid&quot;,&quot;value&quot;:&quot;CLLHpPurv4cDFeFHnQkd7rcJeg&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;*&quot; , &quot;'&quot; , &quot;);window.top.postMessage(&quot; , &quot;'&quot; , &quot;{&quot;msg_type&quot;:&quot;adsense-labs&quot;,&quot;key_value&quot;:[{&quot;key&quot;:&quot;settings&quot;,&quot;value&quot;:&quot;[\\\&quot;ca-pub-9173866185064071\\\&quot;,[[1]],null,[[\\\&quot;ID=16823885b5a99304:T=1721812650:RT=1721812650:S=ALNI_MZJc8n_nJlHEKF2BV3bkisZO0KixA\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,1],[\\\&quot;UID=00000ea413c0e9f9:T=1721812650:RT=1721812650:S=ALNI_MYSzU-H3L4YnhOgO8LfJmv7BYGjnw\\\&quot;,1755508650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;,2]],[\\\&quot;ID=9c9d051c573d2cc8:T=1721812650:RT=1721812650:S=AA-AfjbF0MO2x3wHwyxz1amrpZ9G\\\&quot;,1737364650,\\\&quot;/\\\&quot;,\\\&quot;automationtesting.in\\\&quot;]]&quot;}],&quot;googMsgType&quot;:&quot;sth&quot;}&quot; , &quot;'&quot; , &quot;, &quot; , &quot;'&quot; , &quot;*&quot; , &quot;'&quot; , &quot;);#katalon{font-family:monospace;font-size:13px;background-color:rgba(0,0,0,.7);position:fixed;top:0;left:0;right:0;display:block;z-index:999999999;line-height: normal} #katalon katalon-div{padding:0;margin:0;color:#fff;} #katalon kbd{display:inline-block;padding:3px 5px;font:13px Consolas,&quot;Liberation Mono&quot;,Menlo,Courier,monospace;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb;font-weight: bold} katalon-div#katalon-spy_elementInfoDiv {color: lightblue; padding: 0px 5px 5px} katalon-div#katalon-spy_instructionDiv {padding: 5px 5px 2.5px}/html[1]&quot;))]</value>
+      <webElementGuid>066e5bc0-527a-40be-90a1-798b6a7df3c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
