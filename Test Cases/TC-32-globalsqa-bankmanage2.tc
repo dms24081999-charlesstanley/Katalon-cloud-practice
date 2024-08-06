@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC-32-globalsqa-bankmanage2</name>
-   <tag></tag>
+   <tag>bank,account,manager</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b6de5dc9-6045-4a18-885e-b8ad972541f8</testCaseGuid>

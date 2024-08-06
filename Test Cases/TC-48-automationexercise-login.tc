@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC-48-automationexercise-login</name>
-   <tag></tag>
+   <tag>login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a846f37a-9d66-4a66-aa9c-878f528ea177</testCaseGuid>

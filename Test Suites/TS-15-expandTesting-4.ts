@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-11-globalsqa-3</name>
+   <name>TS-15-expandTesting-4</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>390b2280-fa29-4774-ad63-9afcaff6d1ca</testSuiteGuid>
+   <testSuiteGuid>dda9218f-a329-414e-b40a-d2434db6a0cd</testSuiteGuid>
    <testCaseLink>
-      <guid>04c78e2f-fc85-4d9c-95c4-2dfddf3b6a48</guid>
+      <guid>e65462de-fda3-492a-88e0-3a9238948cb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-28-globalsqa-register</testCaseId>
+      <testCaseId>Test Cases/TC-41-expandTesting-OTP</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>396b0fd8-57ea-4ebf-aa9d-955f54d2d482</guid>
+      <guid>3733ee98-6d3a-4222-a34c-407ed3e44352</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-29-globalsqa-login</testCaseId>
+      <testCaseId>Test Cases/TC-42-expandTesting-autocomplete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

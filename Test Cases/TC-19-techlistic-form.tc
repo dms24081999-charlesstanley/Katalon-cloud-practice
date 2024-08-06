@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC-19-techlistic-form</name>
-   <tag></tag>
+   <tag>form,account</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bf5fef54-7611-4513-9d9c-fa441b31f3e8</testCaseGuid>

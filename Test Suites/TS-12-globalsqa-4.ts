@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-11-globalsqa-3</name>
+   <name>TS-12-globalsqa-4</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>390b2280-fa29-4774-ad63-9afcaff6d1ca</testSuiteGuid>
+   <testSuiteGuid>f1a8c85e-3816-4e11-9212-17e028f7cb75</testSuiteGuid>
    <testCaseLink>
-      <guid>04c78e2f-fc85-4d9c-95c4-2dfddf3b6a48</guid>
+      <guid>778ec5ec-baf7-460d-b2cb-236be46903fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-28-globalsqa-register</testCaseId>
+      <testCaseId>Test Cases/TC-30-globalsqa-bankmanager</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>396b0fd8-57ea-4ebf-aa9d-955f54d2d482</guid>
+      <guid>5ea3b28e-1046-4b5f-bceb-52636b0501cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-29-globalsqa-login</testCaseId>
+      <testCaseId>Test Cases/TC-31-globalsqa-multiform</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

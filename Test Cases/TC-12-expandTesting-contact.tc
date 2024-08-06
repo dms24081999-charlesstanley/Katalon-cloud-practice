@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC-12-expandTesting-contact</name>
-   <tag></tag>
+   <tag>form</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>1bb17435-c6ea-451e-91e5-e1b5fdf5518b</testCaseGuid>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>TC-11-expandTesting-login</name>
-   <tag></tag>
+   <tag>login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>ceb04c8c-7887-485e-8ee0-5f04f71148ff</testCaseGuid>
